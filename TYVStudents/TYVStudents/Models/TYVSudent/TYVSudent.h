@@ -15,6 +15,6 @@
 + (instancetype)sudent;
 
 - (instancetype)initWithName:(NSString *)name
-                   photoName:(NSString *)photoName;
+                   photoName:(NSString *)photoName NS_DESIGNATED_INITIALIZER;
 
 @end

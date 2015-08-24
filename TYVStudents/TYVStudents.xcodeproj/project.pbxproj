@@ -13,8 +13,8 @@
 		5A8DA2381B8B977000DD5C4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2371B8B977000DD5C4F /* Images.xcassets */; };
 		5A8DA23B1B8B977000DD5C4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2391B8B977000DD5C4F /* LaunchScreen.xib */; };
 		5A8DA2471B8B977000DD5C4F /* TYVStudentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2461B8B977000DD5C4F /* TYVStudentsTests.m */; };
-		5A8DA2521B8B987300DD5C4F /* TYVSudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2511B8B987300DD5C4F /* TYVSudent.m */; };
-		5A8DA2531B8B987300DD5C4F /* TYVSudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2511B8B987300DD5C4F /* TYVSudent.m */; };
+		5A8DA2591B8B9A7500DD5C4F /* TYVSudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2581B8B9A7500DD5C4F /* TYVSudent.m */; };
+		5A8DA25A1B8B9A7500DD5C4F /* TYVSudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2581B8B9A7500DD5C4F /* TYVSudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,8 @@
 		5A8DA2401B8B977000DD5C4F /* TYVStudentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYVStudentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8DA2451B8B977000DD5C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A8DA2461B8B977000DD5C4F /* TYVStudentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYVStudentsTests.m; sourceTree = "<group>"; };
-		5A8DA2501B8B987300DD5C4F /* TYVSudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYVSudent.h; path = Models/TYVSudent/TYVSudent.h; sourceTree = "<group>"; };
-		5A8DA2511B8B987300DD5C4F /* TYVSudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYVSudent.m; path = Models/TYVSudent/TYVSudent.m; sourceTree = "<group>"; };
+		5A8DA2571B8B9A7500DD5C4F /* TYVSudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVSudent.h; sourceTree = "<group>"; };
+		5A8DA2581B8B9A7500DD5C4F /* TYVSudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVSudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +82,13 @@
 		5A8DA2291B8B977000DD5C4F /* TYVStudents */ = {
 			isa = PBXGroup;
 			children = (
+				5A8DA2551B8B9A7500DD5C4F /* Models */,
 				5A8DA22E1B8B977000DD5C4F /* AppDelegate.h */,
 				5A8DA22F1B8B977000DD5C4F /* AppDelegate.m */,
 				5A8DA2341B8B977000DD5C4F /* Main.storyboard */,
 				5A8DA2371B8B977000DD5C4F /* Images.xcassets */,
 				5A8DA2391B8B977000DD5C4F /* LaunchScreen.xib */,
 				5A8DA22A1B8B977000DD5C4F /* Supporting Files */,
-				5A8DA2541B8B987C00DD5C4F /* TYVSudent */,
 			);
 			path = TYVStudents;
 			sourceTree = "<group>";
@@ -119,13 +119,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5A8DA2541B8B987C00DD5C4F /* TYVSudent */ = {
+		5A8DA2551B8B9A7500DD5C4F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5A8DA2501B8B987300DD5C4F /* TYVSudent.h */,
-				5A8DA2511B8B987300DD5C4F /* TYVSudent.m */,
+				5A8DA2561B8B9A7500DD5C4F /* TYVSudent */,
 			);
-			name = TYVSudent;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A8DA2561B8B9A7500DD5C4F /* TYVSudent */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DA2571B8B9A7500DD5C4F /* TYVSudent.h */,
+				5A8DA2581B8B9A7500DD5C4F /* TYVSudent.m */,
+			);
+			path = TYVSudent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +238,7 @@
 			files = (
 				5A8DA2301B8B977000DD5C4F /* AppDelegate.m in Sources */,
 				5A8DA22D1B8B977000DD5C4F /* main.m in Sources */,
-				5A8DA2521B8B987300DD5C4F /* TYVSudent.m in Sources */,
+				5A8DA2591B8B9A7500DD5C4F /* TYVSudent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8DA2531B8B987300DD5C4F /* TYVSudent.m in Sources */,
+				5A8DA25A1B8B9A7500DD5C4F /* TYVSudent.m in Sources */,
 				5A8DA2471B8B977000DD5C4F /* TYVStudentsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
