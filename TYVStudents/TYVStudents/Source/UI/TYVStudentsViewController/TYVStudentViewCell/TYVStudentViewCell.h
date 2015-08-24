@@ -1,5 +1,5 @@
 //
-//  TYVStudentsViewController.h
+//  TYVStudentViewCell.h
 //  TYVStudents
 //
 //  Created by YURII on 24.08.15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TYVStudentsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface TYVStudentViewCell : UITableViewCell
 
 @end

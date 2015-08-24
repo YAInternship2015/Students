@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "TYVStudentsViewController.h"
+
+#import "UIWindow+TYVExtentions.h"
+#import "UIViewController+TYVExtentions.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +20,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    UIWindow *window = [UIWindow window];
+    self.window = window;
+    
+    TYVStudentsViewController  *controller = [TYVStudentsViewController controller];
+    window.rootViewController = controller;
+    
+    [window makeKeyAndVisible];
+    
     return YES;
 }
 
