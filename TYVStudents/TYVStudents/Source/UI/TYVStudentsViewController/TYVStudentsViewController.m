@@ -8,8 +8,12 @@
 
 #import "TYVStudentsViewController.h"
 #import "TYVStudentsView.h"
+#import "TYVStudentViewCell.h"
 
+#import "UITableView+TYVExtentions.h"
 #import "TYVMacro.h"
+
+static const NSUInteger TYVDefaultCellsCount    =   10;
 
 TYVViewControllerProperty(TYVStudentsViewController, rootView, TYVStudentsView)
 
@@ -23,11 +27,12 @@ TYVViewControllerProperty(TYVStudentsViewController, rootView, TYVStudentsView)
 #pragma mark UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return TYVDefaultCellsCount;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return nil;
+    id cell = [tableView reusableCellWithClass:[TYVStudentViewCell class]];
+    return cell;
 }
 
 @end
