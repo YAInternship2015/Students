@@ -7,16 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A8DA22D1B8B977000DD5C4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA22C1B8B977000DD5C4F /* main.m */; };
-		5A8DA2301B8B977000DD5C4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA22F1B8B977000DD5C4F /* AppDelegate.m */; };
-		5A8DA2361B8B977000DD5C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2341B8B977000DD5C4F /* Main.storyboard */; };
-		5A8DA2381B8B977000DD5C4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2371B8B977000DD5C4F /* Images.xcassets */; };
-		5A8DA23B1B8B977000DD5C4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2391B8B977000DD5C4F /* LaunchScreen.xib */; };
 		5A8DA2471B8B977000DD5C4F /* TYVStudentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2461B8B977000DD5C4F /* TYVStudentsTests.m */; };
-		5A8DA2591B8B9A7500DD5C4F /* TYVStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2581B8B9A7500DD5C4F /* TYVStudent.m */; };
-		5A8DA25A1B8B9A7500DD5C4F /* TYVStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2581B8B9A7500DD5C4F /* TYVStudent.m */; };
-		5A8DA25D1B8B9AE200DD5C4F /* TYVStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA25C1B8B9AE200DD5C4F /* TYVStudents.m */; };
-		5A8DA25E1B8B9AE200DD5C4F /* TYVStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA25C1B8B9AE200DD5C4F /* TYVStudents.m */; };
+		5A8DA2901B8BA09600DD5C4F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2761B8BA09600DD5C4F /* Info.plist */; };
+		5A8DA2911B8BA09600DD5C4F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2761B8BA09600DD5C4F /* Info.plist */; };
+		5A8DA2921B8BA09600DD5C4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2771B8BA09600DD5C4F /* main.m */; };
+		5A8DA2931B8BA09600DD5C4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2771B8BA09600DD5C4F /* main.m */; };
+		5A8DA2941B8BA09600DD5C4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2791B8BA09600DD5C4F /* LaunchScreen.xib */; };
+		5A8DA2951B8BA09600DD5C4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2791B8BA09600DD5C4F /* LaunchScreen.xib */; };
+		5A8DA2961B8BA09600DD5C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA27B1B8BA09600DD5C4F /* Main.storyboard */; };
+		5A8DA2971B8BA09600DD5C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA27B1B8BA09600DD5C4F /* Main.storyboard */; };
+		5A8DA2981B8BA09600DD5C4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA27D1B8BA09600DD5C4F /* Images.xcassets */; };
+		5A8DA2991B8BA09600DD5C4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA27D1B8BA09600DD5C4F /* Images.xcassets */; };
+		5A8DA29A1B8BA09600DD5C4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2801B8BA09600DD5C4F /* AppDelegate.m */; };
+		5A8DA29B1B8BA09600DD5C4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2801B8BA09600DD5C4F /* AppDelegate.m */; };
+		5A8DA29C1B8BA09600DD5C4F /* TYVStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2841B8BA09600DD5C4F /* TYVStudents.m */; };
+		5A8DA29D1B8BA09600DD5C4F /* TYVStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2841B8BA09600DD5C4F /* TYVStudents.m */; };
+		5A8DA29E1B8BA09600DD5C4F /* TYVStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2871B8BA09600DD5C4F /* TYVStudent.m */; };
+		5A8DA29F1B8BA09600DD5C4F /* TYVStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2871B8BA09600DD5C4F /* TYVStudent.m */; };
+		5A8DA2A01B8BA09600DD5C4F /* TYVStudentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA28C1B8BA09600DD5C4F /* TYVStudentsView.m */; };
+		5A8DA2A11B8BA09600DD5C4F /* TYVStudentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA28C1B8BA09600DD5C4F /* TYVStudentsView.m */; };
+		5A8DA2A21B8BA09600DD5C4F /* TYVStudentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA28E1B8BA09600DD5C4F /* TYVStudentsViewController.m */; };
+		5A8DA2A31B8BA09600DD5C4F /* TYVStudentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA28E1B8BA09600DD5C4F /* TYVStudentsViewController.m */; };
+		5A8DA2A41B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA28F1B8BA09600DD5C4F /* TYVStudentsViewController.xib */; };
+		5A8DA2A51B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA28F1B8BA09600DD5C4F /* TYVStudentsViewController.xib */; };
+		5A8DA2AA1B8BA12B00DD5C4F /* TYVMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2A91B8BA12B00DD5C4F /* TYVMacro.m */; };
+		5A8DA2AB1B8BA12B00DD5C4F /* TYVMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2A91B8BA12B00DD5C4F /* TYVMacro.m */; };
+		5A8DA2AF1B8BA34600DD5C4F /* TYVStudentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2AD1B8BA34600DD5C4F /* TYVStudentViewCell.m */; };
+		5A8DA2B01B8BA34600DD5C4F /* TYVStudentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2AD1B8BA34600DD5C4F /* TYVStudentViewCell.m */; };
+		5A8DA2B11B8BA34600DD5C4F /* TYVStudentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2AE1B8BA34600DD5C4F /* TYVStudentViewCell.xib */; };
+		5A8DA2B21B8BA34600DD5C4F /* TYVStudentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2AE1B8BA34600DD5C4F /* TYVStudentViewCell.xib */; };
+		5ABE9D481B8BA6B30048FE9C /* UIWindow+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D471B8BA6B30048FE9C /* UIWindow+TYVExtentions.m */; };
+		5ABE9D491B8BA6B30048FE9C /* UIWindow+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D471B8BA6B30048FE9C /* UIWindow+TYVExtentions.m */; };
+		5ABE9D4D1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D4C1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m */; };
+		5ABE9D4E1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D4C1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m */; };
+		5ABE9D521B8BA9690048FE9C /* UITableView+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D511B8BA9690048FE9C /* UITableView+TYVExtentions.m */; };
+		5ABE9D531B8BA9690048FE9C /* UITableView+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D511B8BA9690048FE9C /* UITableView+TYVExtentions.m */; };
+		5ABE9D581B8BA9D20048FE9C /* TYVDataArrayModelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D571B8BA9D20048FE9C /* TYVDataArrayModelInfo.m */; };
+		5ABE9D591B8BA9D20048FE9C /* TYVDataArrayModelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D571B8BA9D20048FE9C /* TYVDataArrayModelInfo.m */; };
+		5ABE9D5D1B8BA9E30048FE9C /* TYVModelMovingPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D5C1B8BA9E30048FE9C /* TYVModelMovingPosition.m */; };
+		5ABE9D5E1B8BA9E30048FE9C /* TYVModelMovingPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D5C1B8BA9E30048FE9C /* TYVModelMovingPosition.m */; };
+		5ABE9D621B8BA9F10048FE9C /* UINib+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D611B8BA9F10048FE9C /* UINib+TYVExtentions.m */; };
+		5ABE9D631B8BA9F10048FE9C /* UINib+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D611B8BA9F10048FE9C /* UINib+TYVExtentions.m */; };
+		5ABE9D671B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D661B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.m */; };
+		5ABE9D681B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D661B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.m */; };
+		5ABE9D6C1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D6B1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m */; };
+		5ABE9D6D1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D6B1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m */; };
+		5ABE9D711B8BAF550048FE9C /* NSString+TYVExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D701B8BAF550048FE9C /* NSString+TYVExtensions.m */; };
+		5ABE9D721B8BAF550048FE9C /* NSString+TYVExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D701B8BAF550048FE9C /* NSString+TYVExtensions.m */; };
+		5ABE9D7F1B8BB1E90048FE9C /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D751B8BB1E90048FE9C /* 1.jpeg */; };
+		5ABE9D801B8BB1E90048FE9C /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D751B8BB1E90048FE9C /* 1.jpeg */; };
+		5ABE9D811B8BB1E90048FE9C /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D761B8BB1E90048FE9C /* 10.jpeg */; };
+		5ABE9D821B8BB1E90048FE9C /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D761B8BB1E90048FE9C /* 10.jpeg */; };
+		5ABE9D831B8BB1E90048FE9C /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D771B8BB1E90048FE9C /* 2.jpeg */; };
+		5ABE9D841B8BB1E90048FE9C /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D771B8BB1E90048FE9C /* 2.jpeg */; };
+		5ABE9D851B8BB1E90048FE9C /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D781B8BB1E90048FE9C /* 3.jpeg */; };
+		5ABE9D861B8BB1E90048FE9C /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D781B8BB1E90048FE9C /* 3.jpeg */; };
+		5ABE9D871B8BB1E90048FE9C /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D791B8BB1E90048FE9C /* 4.jpeg */; };
+		5ABE9D881B8BB1E90048FE9C /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D791B8BB1E90048FE9C /* 4.jpeg */; };
+		5ABE9D891B8BB1E90048FE9C /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7A1B8BB1E90048FE9C /* 5.jpeg */; };
+		5ABE9D8A1B8BB1E90048FE9C /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7A1B8BB1E90048FE9C /* 5.jpeg */; };
+		5ABE9D8B1B8BB1E90048FE9C /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7B1B8BB1E90048FE9C /* 6.jpeg */; };
+		5ABE9D8C1B8BB1E90048FE9C /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7B1B8BB1E90048FE9C /* 6.jpeg */; };
+		5ABE9D8D1B8BB1E90048FE9C /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7C1B8BB1E90048FE9C /* 7.jpeg */; };
+		5ABE9D8E1B8BB1E90048FE9C /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7C1B8BB1E90048FE9C /* 7.jpeg */; };
+		5ABE9D8F1B8BB1E90048FE9C /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7D1B8BB1E90048FE9C /* 8.jpeg */; };
+		5ABE9D901B8BB1E90048FE9C /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7D1B8BB1E90048FE9C /* 8.jpeg */; };
+		5ABE9D911B8BB1E90048FE9C /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7E1B8BB1E90048FE9C /* 9.jpeg */; };
+		5ABE9D921B8BB1E90048FE9C /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7E1B8BB1E90048FE9C /* 9.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,20 +88,58 @@
 
 /* Begin PBXFileReference section */
 		5A8DA2271B8B977000DD5C4F /* TYVStudents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYVStudents.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A8DA22B1B8B977000DD5C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A8DA22C1B8B977000DD5C4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A8DA22E1B8B977000DD5C4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5A8DA22F1B8B977000DD5C4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5A8DA2351B8B977000DD5C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5A8DA2371B8B977000DD5C4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5A8DA23A1B8B977000DD5C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5A8DA2401B8B977000DD5C4F /* TYVStudentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYVStudentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8DA2451B8B977000DD5C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A8DA2461B8B977000DD5C4F /* TYVStudentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYVStudentsTests.m; sourceTree = "<group>"; };
-		5A8DA2571B8B9A7500DD5C4F /* TYVStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVStudent.h; sourceTree = "<group>"; };
-		5A8DA2581B8B9A7500DD5C4F /* TYVStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudent.m; sourceTree = "<group>"; };
-		5A8DA25B1B8B9AE200DD5C4F /* TYVStudents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYVStudents.h; path = TYVStudents/TYVStudents.h; sourceTree = "<group>"; };
-		5A8DA25C1B8B9AE200DD5C4F /* TYVStudents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYVStudents.m; path = TYVStudents/TYVStudents.m; sourceTree = "<group>"; };
+		5A8DA2761B8BA09600DD5C4F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A8DA2771B8BA09600DD5C4F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A8DA27A1B8BA09600DD5C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5A8DA27C1B8BA09600DD5C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A8DA27D1B8BA09600DD5C4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A8DA27F1B8BA09600DD5C4F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A8DA2801B8BA09600DD5C4F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A8DA2831B8BA09600DD5C4F /* TYVStudents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVStudents.h; sourceTree = "<group>"; };
+		5A8DA2841B8BA09600DD5C4F /* TYVStudents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudents.m; sourceTree = "<group>"; };
+		5A8DA2861B8BA09600DD5C4F /* TYVStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVStudent.h; sourceTree = "<group>"; };
+		5A8DA2871B8BA09600DD5C4F /* TYVStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudent.m; sourceTree = "<group>"; };
+		5A8DA28B1B8BA09600DD5C4F /* TYVStudentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVStudentsView.h; sourceTree = "<group>"; };
+		5A8DA28C1B8BA09600DD5C4F /* TYVStudentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudentsView.m; sourceTree = "<group>"; };
+		5A8DA28D1B8BA09600DD5C4F /* TYVStudentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVStudentsViewController.h; sourceTree = "<group>"; };
+		5A8DA28E1B8BA09600DD5C4F /* TYVStudentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudentsViewController.m; sourceTree = "<group>"; };
+		5A8DA28F1B8BA09600DD5C4F /* TYVStudentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYVStudentsViewController.xib; sourceTree = "<group>"; };
+		5A8DA2A81B8BA12B00DD5C4F /* TYVMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVMacro.h; sourceTree = "<group>"; };
+		5A8DA2A91B8BA12B00DD5C4F /* TYVMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVMacro.m; sourceTree = "<group>"; };
+		5A8DA2AC1B8BA34600DD5C4F /* TYVStudentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYVStudentViewCell.h; path = TYVStudentViewCell/TYVStudentViewCell.h; sourceTree = "<group>"; };
+		5A8DA2AD1B8BA34600DD5C4F /* TYVStudentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYVStudentViewCell.m; path = TYVStudentViewCell/TYVStudentViewCell.m; sourceTree = "<group>"; };
+		5A8DA2AE1B8BA34600DD5C4F /* TYVStudentViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYVStudentViewCell.xib; path = TYVStudentViewCell/TYVStudentViewCell.xib; sourceTree = "<group>"; };
+		5ABE9D461B8BA6B30048FE9C /* UIWindow+TYVExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+TYVExtentions.h"; sourceTree = "<group>"; };
+		5ABE9D471B8BA6B30048FE9C /* UIWindow+TYVExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+TYVExtentions.m"; sourceTree = "<group>"; };
+		5ABE9D4B1B8BA70F0048FE9C /* UIViewController+TYVExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TYVExtentions.h"; sourceTree = "<group>"; };
+		5ABE9D4C1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TYVExtentions.m"; sourceTree = "<group>"; };
+		5ABE9D501B8BA9690048FE9C /* UITableView+TYVExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TYVExtentions.h"; sourceTree = "<group>"; };
+		5ABE9D511B8BA9690048FE9C /* UITableView+TYVExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TYVExtentions.m"; sourceTree = "<group>"; };
+		5ABE9D561B8BA9D20048FE9C /* TYVDataArrayModelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVDataArrayModelInfo.h; sourceTree = "<group>"; };
+		5ABE9D571B8BA9D20048FE9C /* TYVDataArrayModelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVDataArrayModelInfo.m; sourceTree = "<group>"; };
+		5ABE9D5B1B8BA9E30048FE9C /* TYVModelMovingPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVModelMovingPosition.h; sourceTree = "<group>"; };
+		5ABE9D5C1B8BA9E30048FE9C /* TYVModelMovingPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVModelMovingPosition.m; sourceTree = "<group>"; };
+		5ABE9D601B8BA9F10048FE9C /* UINib+TYVExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINib+TYVExtentions.h"; sourceTree = "<group>"; };
+		5ABE9D611B8BA9F10048FE9C /* UINib+TYVExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINib+TYVExtentions.m"; sourceTree = "<group>"; };
+		5ABE9D651B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+TYVExtensions.h"; sourceTree = "<group>"; };
+		5ABE9D661B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+TYVExtensions.m"; sourceTree = "<group>"; };
+		5ABE9D6A1B8BAAFA0048FE9C /* NSArray+TYVExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TYVExtentions.h"; sourceTree = "<group>"; };
+		5ABE9D6B1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TYVExtentions.m"; sourceTree = "<group>"; };
+		5ABE9D6F1B8BAF550048FE9C /* NSString+TYVExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TYVExtensions.h"; sourceTree = "<group>"; };
+		5ABE9D701B8BAF550048FE9C /* NSString+TYVExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TYVExtensions.m"; sourceTree = "<group>"; };
+		5ABE9D751B8BB1E90048FE9C /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		5ABE9D761B8BB1E90048FE9C /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		5ABE9D771B8BB1E90048FE9C /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		5ABE9D781B8BB1E90048FE9C /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		5ABE9D791B8BB1E90048FE9C /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		5ABE9D7A1B8BB1E90048FE9C /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		5ABE9D7B1B8BB1E90048FE9C /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		5ABE9D7C1B8BB1E90048FE9C /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		5ABE9D7D1B8BB1E90048FE9C /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		5ABE9D7E1B8BB1E90048FE9C /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +163,7 @@
 		5A8DA21E1B8B977000DD5C4F = {
 			isa = PBXGroup;
 			children = (
-				5A8DA2291B8B977000DD5C4F /* TYVStudents */,
+				5A8DA2751B8BA09600DD5C4F /* TYVStudents */,
 				5A8DA2431B8B977000DD5C4F /* TYVStudentsTests */,
 				5A8DA2281B8B977000DD5C4F /* Products */,
 			);
@@ -81,29 +176,6 @@
 				5A8DA2401B8B977000DD5C4F /* TYVStudentsTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5A8DA2291B8B977000DD5C4F /* TYVStudents */ = {
-			isa = PBXGroup;
-			children = (
-				5A8DA2551B8B9A7500DD5C4F /* Models */,
-				5A8DA22E1B8B977000DD5C4F /* AppDelegate.h */,
-				5A8DA22F1B8B977000DD5C4F /* AppDelegate.m */,
-				5A8DA2341B8B977000DD5C4F /* Main.storyboard */,
-				5A8DA2371B8B977000DD5C4F /* Images.xcassets */,
-				5A8DA2391B8B977000DD5C4F /* LaunchScreen.xib */,
-				5A8DA22A1B8B977000DD5C4F /* Supporting Files */,
-			);
-			path = TYVStudents;
-			sourceTree = "<group>";
-		};
-		5A8DA22A1B8B977000DD5C4F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5A8DA22B1B8B977000DD5C4F /* Info.plist */,
-				5A8DA22C1B8B977000DD5C4F /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		5A8DA2431B8B977000DD5C4F /* TYVStudentsTests */ = {
@@ -123,31 +195,236 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5A8DA2551B8B9A7500DD5C4F /* Models */ = {
+		5A8DA2751B8BA09600DD5C4F /* TYVStudents */ = {
 			isa = PBXGroup;
 			children = (
-				5A8DA2561B8B9A7500DD5C4F /* TYVSudent */,
-				5A8DA25F1B8B9AE600DD5C4F /* TYVStudents */,
+				5A8DA2761B8BA09600DD5C4F /* Info.plist */,
+				5A8DA2771B8BA09600DD5C4F /* main.m */,
+				5A8DA2781B8BA09600DD5C4F /* Resources */,
+				5A8DA27E1B8BA09600DD5C4F /* Source */,
+			);
+			path = TYVStudents;
+			sourceTree = "<group>";
+		};
+		5A8DA2781B8BA09600DD5C4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D741B8BB1E90048FE9C /* Images */,
+				5A8DA2791B8BA09600DD5C4F /* LaunchScreen.xib */,
+				5A8DA27B1B8BA09600DD5C4F /* Main.storyboard */,
+				5A8DA27D1B8BA09600DD5C4F /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A8DA27E1B8BA09600DD5C4F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DA2A71B8BA12B00DD5C4F /* Library */,
+				5A8DA27F1B8BA09600DD5C4F /* AppDelegate.h */,
+				5A8DA2801B8BA09600DD5C4F /* AppDelegate.m */,
+				5A8DA2811B8BA09600DD5C4F /* Models */,
+				5A8DA2881B8BA09600DD5C4F /* UI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5A8DA2811B8BA09600DD5C4F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DA2821B8BA09600DD5C4F /* TYVStudents */,
+				5A8DA2851B8BA09600DD5C4F /* TYVSudent */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		5A8DA2561B8B9A7500DD5C4F /* TYVSudent */ = {
+		5A8DA2821B8BA09600DD5C4F /* TYVStudents */ = {
 			isa = PBXGroup;
 			children = (
-				5A8DA2571B8B9A7500DD5C4F /* TYVStudent.h */,
-				5A8DA2581B8B9A7500DD5C4F /* TYVStudent.m */,
+				5A8DA2831B8BA09600DD5C4F /* TYVStudents.h */,
+				5A8DA2841B8BA09600DD5C4F /* TYVStudents.m */,
+			);
+			path = TYVStudents;
+			sourceTree = "<group>";
+		};
+		5A8DA2851B8BA09600DD5C4F /* TYVSudent */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DA2861B8BA09600DD5C4F /* TYVStudent.h */,
+				5A8DA2871B8BA09600DD5C4F /* TYVStudent.m */,
 			);
 			path = TYVSudent;
 			sourceTree = "<group>";
 		};
-		5A8DA25F1B8B9AE600DD5C4F /* TYVStudents */ = {
+		5A8DA2881B8BA09600DD5C4F /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				5A8DA25B1B8B9AE200DD5C4F /* TYVStudents.h */,
-				5A8DA25C1B8B9AE200DD5C4F /* TYVStudents.m */,
+				5A8DA2891B8BA09600DD5C4F /* TYVStudentsViewController */,
 			);
-			name = TYVStudents;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5A8DA2891B8BA09600DD5C4F /* TYVStudentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DA28A1B8BA09600DD5C4F /* TYVStudentsView */,
+				5A8DA28D1B8BA09600DD5C4F /* TYVStudentsViewController.h */,
+				5A8DA28E1B8BA09600DD5C4F /* TYVStudentsViewController.m */,
+				5A8DA28F1B8BA09600DD5C4F /* TYVStudentsViewController.xib */,
+				5A8DA2B31B8BA34D00DD5C4F /* TYVStudentViewCell */,
+			);
+			path = TYVStudentsViewController;
+			sourceTree = "<group>";
+		};
+		5A8DA28A1B8BA09600DD5C4F /* TYVStudentsView */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DA28B1B8BA09600DD5C4F /* TYVStudentsView.h */,
+				5A8DA28C1B8BA09600DD5C4F /* TYVStudentsView.m */,
+			);
+			path = TYVStudentsView;
+			sourceTree = "<group>";
+		};
+		5A8DA2A71B8BA12B00DD5C4F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D541B8BA9C10048FE9C /* Classes */,
+				5ABE9D441B8BA6AA0048FE9C /* Categories */,
+				5A8DA2A81B8BA12B00DD5C4F /* TYVMacro.h */,
+				5A8DA2A91B8BA12B00DD5C4F /* TYVMacro.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5A8DA2B31B8BA34D00DD5C4F /* TYVStudentViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DA2AC1B8BA34600DD5C4F /* TYVStudentViewCell.h */,
+				5A8DA2AD1B8BA34600DD5C4F /* TYVStudentViewCell.m */,
+				5A8DA2AE1B8BA34600DD5C4F /* TYVStudentViewCell.xib */,
+			);
+			name = TYVStudentViewCell;
+			sourceTree = "<group>";
+		};
+		5ABE9D441B8BA6AA0048FE9C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D6E1B8BAF550048FE9C /* NSString+TYVExtensions */,
+				5ABE9D691B8BAAFA0048FE9C /* NSArray+TYVExtentions */,
+				5ABE9D641B8BAAD50048FE9C /* NSIndexPath+TYVExtensions */,
+				5ABE9D5F1B8BA9F10048FE9C /* UINib+TYVExtentions */,
+				5ABE9D4F1B8BA9690048FE9C /* UITableView+TYVExtentions */,
+				5ABE9D4A1B8BA70F0048FE9C /* UIViewController+TYVExtentions */,
+				5ABE9D451B8BA6B30048FE9C /* UIWindow+TYVExtentions */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5ABE9D451B8BA6B30048FE9C /* UIWindow+TYVExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D461B8BA6B30048FE9C /* UIWindow+TYVExtentions.h */,
+				5ABE9D471B8BA6B30048FE9C /* UIWindow+TYVExtentions.m */,
+			);
+			path = "UIWindow+TYVExtentions";
+			sourceTree = "<group>";
+		};
+		5ABE9D4A1B8BA70F0048FE9C /* UIViewController+TYVExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D4B1B8BA70F0048FE9C /* UIViewController+TYVExtentions.h */,
+				5ABE9D4C1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m */,
+			);
+			path = "UIViewController+TYVExtentions";
+			sourceTree = "<group>";
+		};
+		5ABE9D4F1B8BA9690048FE9C /* UITableView+TYVExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D501B8BA9690048FE9C /* UITableView+TYVExtentions.h */,
+				5ABE9D511B8BA9690048FE9C /* UITableView+TYVExtentions.m */,
+			);
+			path = "UITableView+TYVExtentions";
+			sourceTree = "<group>";
+		};
+		5ABE9D541B8BA9C10048FE9C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D5A1B8BA9E30048FE9C /* TYVModelMovingPosition */,
+				5ABE9D551B8BA9D20048FE9C /* TYVDataArrayModelInfo */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5ABE9D551B8BA9D20048FE9C /* TYVDataArrayModelInfo */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D561B8BA9D20048FE9C /* TYVDataArrayModelInfo.h */,
+				5ABE9D571B8BA9D20048FE9C /* TYVDataArrayModelInfo.m */,
+			);
+			path = TYVDataArrayModelInfo;
+			sourceTree = "<group>";
+		};
+		5ABE9D5A1B8BA9E30048FE9C /* TYVModelMovingPosition */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D5B1B8BA9E30048FE9C /* TYVModelMovingPosition.h */,
+				5ABE9D5C1B8BA9E30048FE9C /* TYVModelMovingPosition.m */,
+			);
+			path = TYVModelMovingPosition;
+			sourceTree = "<group>";
+		};
+		5ABE9D5F1B8BA9F10048FE9C /* UINib+TYVExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D601B8BA9F10048FE9C /* UINib+TYVExtentions.h */,
+				5ABE9D611B8BA9F10048FE9C /* UINib+TYVExtentions.m */,
+			);
+			path = "UINib+TYVExtentions";
+			sourceTree = "<group>";
+		};
+		5ABE9D641B8BAAD50048FE9C /* NSIndexPath+TYVExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D651B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.h */,
+				5ABE9D661B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.m */,
+			);
+			path = "NSIndexPath+TYVExtensions";
+			sourceTree = "<group>";
+		};
+		5ABE9D691B8BAAFA0048FE9C /* NSArray+TYVExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D6A1B8BAAFA0048FE9C /* NSArray+TYVExtentions.h */,
+				5ABE9D6B1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m */,
+			);
+			path = "NSArray+TYVExtentions";
+			sourceTree = "<group>";
+		};
+		5ABE9D6E1B8BAF550048FE9C /* NSString+TYVExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D6F1B8BAF550048FE9C /* NSString+TYVExtensions.h */,
+				5ABE9D701B8BAF550048FE9C /* NSString+TYVExtensions.m */,
+			);
+			path = "NSString+TYVExtensions";
+			sourceTree = "<group>";
+		};
+		5ABE9D741B8BB1E90048FE9C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D751B8BB1E90048FE9C /* 1.jpeg */,
+				5ABE9D761B8BB1E90048FE9C /* 10.jpeg */,
+				5ABE9D771B8BB1E90048FE9C /* 2.jpeg */,
+				5ABE9D781B8BB1E90048FE9C /* 3.jpeg */,
+				5ABE9D791B8BB1E90048FE9C /* 4.jpeg */,
+				5ABE9D7A1B8BB1E90048FE9C /* 5.jpeg */,
+				5ABE9D7B1B8BB1E90048FE9C /* 6.jpeg */,
+				5ABE9D7C1B8BB1E90048FE9C /* 7.jpeg */,
+				5ABE9D7D1B8BB1E90048FE9C /* 8.jpeg */,
+				5ABE9D7E1B8BB1E90048FE9C /* 9.jpeg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +507,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8DA2361B8B977000DD5C4F /* Main.storyboard in Resources */,
-				5A8DA23B1B8B977000DD5C4F /* LaunchScreen.xib in Resources */,
-				5A8DA2381B8B977000DD5C4F /* Images.xcassets in Resources */,
+				5ABE9D8B1B8BB1E90048FE9C /* 6.jpeg in Resources */,
+				5ABE9D8D1B8BB1E90048FE9C /* 7.jpeg in Resources */,
+				5ABE9D7F1B8BB1E90048FE9C /* 1.jpeg in Resources */,
+				5ABE9D911B8BB1E90048FE9C /* 9.jpeg in Resources */,
+				5A8DA2961B8BA09600DD5C4F /* Main.storyboard in Resources */,
+				5A8DA2981B8BA09600DD5C4F /* Images.xcassets in Resources */,
+				5ABE9D8F1B8BB1E90048FE9C /* 8.jpeg in Resources */,
+				5A8DA2B11B8BA34600DD5C4F /* TYVStudentViewCell.xib in Resources */,
+				5ABE9D811B8BB1E90048FE9C /* 10.jpeg in Resources */,
+				5ABE9D851B8BB1E90048FE9C /* 3.jpeg in Resources */,
+				5A8DA2941B8BA09600DD5C4F /* LaunchScreen.xib in Resources */,
+				5A8DA2A41B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */,
+				5ABE9D871B8BB1E90048FE9C /* 4.jpeg in Resources */,
+				5A8DA2901B8BA09600DD5C4F /* Info.plist in Resources */,
+				5ABE9D831B8BB1E90048FE9C /* 2.jpeg in Resources */,
+				5ABE9D891B8BB1E90048FE9C /* 5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +530,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABE9D8C1B8BB1E90048FE9C /* 6.jpeg in Resources */,
+				5ABE9D8E1B8BB1E90048FE9C /* 7.jpeg in Resources */,
+				5ABE9D801B8BB1E90048FE9C /* 1.jpeg in Resources */,
+				5ABE9D921B8BB1E90048FE9C /* 9.jpeg in Resources */,
+				5A8DA2971B8BA09600DD5C4F /* Main.storyboard in Resources */,
+				5A8DA2991B8BA09600DD5C4F /* Images.xcassets in Resources */,
+				5ABE9D901B8BB1E90048FE9C /* 8.jpeg in Resources */,
+				5A8DA2B21B8BA34600DD5C4F /* TYVStudentViewCell.xib in Resources */,
+				5ABE9D821B8BB1E90048FE9C /* 10.jpeg in Resources */,
+				5ABE9D861B8BB1E90048FE9C /* 3.jpeg in Resources */,
+				5A8DA2951B8BA09600DD5C4F /* LaunchScreen.xib in Resources */,
+				5A8DA2A51B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */,
+				5ABE9D881B8BB1E90048FE9C /* 4.jpeg in Resources */,
+				5A8DA2911B8BA09600DD5C4F /* Info.plist in Resources */,
+				5ABE9D841B8BB1E90048FE9C /* 2.jpeg in Resources */,
+				5ABE9D8A1B8BB1E90048FE9C /* 5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +556,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8DA2301B8B977000DD5C4F /* AppDelegate.m in Sources */,
-				5A8DA25D1B8B9AE200DD5C4F /* TYVStudents.m in Sources */,
-				5A8DA22D1B8B977000DD5C4F /* main.m in Sources */,
-				5A8DA2591B8B9A7500DD5C4F /* TYVStudent.m in Sources */,
+				5A8DA2A01B8BA09600DD5C4F /* TYVStudentsView.m in Sources */,
+				5ABE9D711B8BAF550048FE9C /* NSString+TYVExtensions.m in Sources */,
+				5ABE9D6C1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m in Sources */,
+				5A8DA29C1B8BA09600DD5C4F /* TYVStudents.m in Sources */,
+				5A8DA29E1B8BA09600DD5C4F /* TYVStudent.m in Sources */,
+				5A8DA29A1B8BA09600DD5C4F /* AppDelegate.m in Sources */,
+				5A8DA2AF1B8BA34600DD5C4F /* TYVStudentViewCell.m in Sources */,
+				5ABE9D5D1B8BA9E30048FE9C /* TYVModelMovingPosition.m in Sources */,
+				5A8DA2A21B8BA09600DD5C4F /* TYVStudentsViewController.m in Sources */,
+				5ABE9D4D1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m in Sources */,
+				5A8DA2AA1B8BA12B00DD5C4F /* TYVMacro.m in Sources */,
+				5ABE9D671B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.m in Sources */,
+				5ABE9D521B8BA9690048FE9C /* UITableView+TYVExtentions.m in Sources */,
+				5A8DA2921B8BA09600DD5C4F /* main.m in Sources */,
+				5ABE9D481B8BA6B30048FE9C /* UIWindow+TYVExtentions.m in Sources */,
+				5ABE9D621B8BA9F10048FE9C /* UINib+TYVExtentions.m in Sources */,
+				5ABE9D581B8BA9D20048FE9C /* TYVDataArrayModelInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +580,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8DA25E1B8B9AE200DD5C4F /* TYVStudents.m in Sources */,
-				5A8DA25A1B8B9A7500DD5C4F /* TYVStudent.m in Sources */,
+				5A8DA2A31B8BA09600DD5C4F /* TYVStudentsViewController.m in Sources */,
+				5A8DA2931B8BA09600DD5C4F /* main.m in Sources */,
+				5ABE9D531B8BA9690048FE9C /* UITableView+TYVExtentions.m in Sources */,
+				5ABE9D631B8BA9F10048FE9C /* UINib+TYVExtentions.m in Sources */,
+				5A8DA2B01B8BA34600DD5C4F /* TYVStudentViewCell.m in Sources */,
+				5ABE9D5E1B8BA9E30048FE9C /* TYVModelMovingPosition.m in Sources */,
+				5ABE9D6D1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m in Sources */,
+				5A8DA2AB1B8BA12B00DD5C4F /* TYVMacro.m in Sources */,
+				5ABE9D591B8BA9D20048FE9C /* TYVDataArrayModelInfo.m in Sources */,
+				5ABE9D721B8BAF550048FE9C /* NSString+TYVExtensions.m in Sources */,
+				5A8DA29D1B8BA09600DD5C4F /* TYVStudents.m in Sources */,
 				5A8DA2471B8B977000DD5C4F /* TYVStudentsTests.m in Sources */,
+				5ABE9D681B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.m in Sources */,
+				5A8DA29F1B8BA09600DD5C4F /* TYVStudent.m in Sources */,
+				5A8DA2A11B8BA09600DD5C4F /* TYVStudentsView.m in Sources */,
+				5ABE9D4E1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m in Sources */,
+				5ABE9D491B8BA6B30048FE9C /* UIWindow+TYVExtentions.m in Sources */,
+				5A8DA29B1B8BA09600DD5C4F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,20 +612,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5A8DA2341B8B977000DD5C4F /* Main.storyboard */ = {
+		5A8DA2791B8BA09600DD5C4F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5A8DA2351B8B977000DD5C4F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5A8DA2391B8B977000DD5C4F /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A8DA23A1B8B977000DD5C4F /* Base */,
+				5A8DA27A1B8BA09600DD5C4F /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		5A8DA27B1B8BA09600DD5C4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A8DA27C1B8BA09600DD5C4F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -446,6 +780,7 @@
 				5A8DA24C1B8B977000DD5C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A8DA24D1B8B977000DD5C4F /* Build configuration list for PBXNativeTarget "TYVStudentsTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +789,7 @@
 				5A8DA24F1B8B977000DD5C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

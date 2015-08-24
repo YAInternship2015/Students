@@ -14,18 +14,18 @@
 #pragma mark Class Methods
 
 + (instancetype)student {
-    return [[self alloc] initWithName:nil photoName:nil];
+    return [[self alloc] initWithName:nil photo:nil];
 }
 
 #pragma mark -
 #pragma Initializations and Dealloations
 
 - (instancetype)initWithName:(NSString *)name
-                   photoName:(NSString *)photoName {
+                       photo:(UIImage *)photo {
     self = [super init];
     if (self) {
         self.name = name;
-        self.photoName = photoName;
+        self.photo = photo;
     }
     
     return self;
