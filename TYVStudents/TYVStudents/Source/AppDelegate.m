@@ -9,8 +9,12 @@
 #import "AppDelegate.h"
 #import "TYVStudentsViewController.h"
 
+#import "TYVStudent.h"
+#import "TYVStudents.h"
+
 #import "UIWindow+TYVExtentions.h"
 #import "UIViewController+TYVExtentions.h"
+#import "NSString+TYVExtensions.h"
 
 @interface AppDelegate ()
 
@@ -21,10 +25,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    TYVStudents *studentsModel = [TYVStudents studentsWithCapacity:TYVDefaultCellsCount];
+    
+    for (int i = 0; i < TYVDefaultCellsCount; i++) {
+        TYVStudent *student = [[TYVStudent alloc] initWithName:[NSString randomStringWithLength:5] photo:nil];
+        [studentsModel addStundent:student];
+    }
+    
     UIWindow *window = [UIWindow window];
     self.window = window;
     
     TYVStudentsViewController  *controller = [TYVStudentsViewController controller];
+    controller.studentsModel = studentsModel;
     window.rootViewController = controller;
     
     [window makeKeyAndVisible];

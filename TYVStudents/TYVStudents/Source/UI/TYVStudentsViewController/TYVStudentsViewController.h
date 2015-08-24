@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+static const NSUInteger TYVDefaultCellsCount    =   10;
+
 @class TYVStudents;
 
 @interface TYVStudentsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>

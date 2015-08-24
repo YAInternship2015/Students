@@ -14,8 +14,6 @@
 #import "UITableView+TYVExtentions.h"
 #import "TYVMacro.h"
 
-static const NSUInteger TYVDefaultCellsCount    =   10;
-
 TYVViewControllerProperty(TYVStudentsViewController, rootView, TYVStudentsView)
 
 @interface TYVStudentsViewController ()
