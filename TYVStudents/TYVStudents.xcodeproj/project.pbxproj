@@ -54,6 +54,26 @@
 		5ABE9D6D1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D6B1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m */; };
 		5ABE9D711B8BAF550048FE9C /* NSString+TYVExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D701B8BAF550048FE9C /* NSString+TYVExtensions.m */; };
 		5ABE9D721B8BAF550048FE9C /* NSString+TYVExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D701B8BAF550048FE9C /* NSString+TYVExtensions.m */; };
+		5ABE9D7F1B8BB1E90048FE9C /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D751B8BB1E90048FE9C /* 1.jpeg */; };
+		5ABE9D801B8BB1E90048FE9C /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D751B8BB1E90048FE9C /* 1.jpeg */; };
+		5ABE9D811B8BB1E90048FE9C /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D761B8BB1E90048FE9C /* 10.jpeg */; };
+		5ABE9D821B8BB1E90048FE9C /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D761B8BB1E90048FE9C /* 10.jpeg */; };
+		5ABE9D831B8BB1E90048FE9C /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D771B8BB1E90048FE9C /* 2.jpeg */; };
+		5ABE9D841B8BB1E90048FE9C /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D771B8BB1E90048FE9C /* 2.jpeg */; };
+		5ABE9D851B8BB1E90048FE9C /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D781B8BB1E90048FE9C /* 3.jpeg */; };
+		5ABE9D861B8BB1E90048FE9C /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D781B8BB1E90048FE9C /* 3.jpeg */; };
+		5ABE9D871B8BB1E90048FE9C /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D791B8BB1E90048FE9C /* 4.jpeg */; };
+		5ABE9D881B8BB1E90048FE9C /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D791B8BB1E90048FE9C /* 4.jpeg */; };
+		5ABE9D891B8BB1E90048FE9C /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7A1B8BB1E90048FE9C /* 5.jpeg */; };
+		5ABE9D8A1B8BB1E90048FE9C /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7A1B8BB1E90048FE9C /* 5.jpeg */; };
+		5ABE9D8B1B8BB1E90048FE9C /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7B1B8BB1E90048FE9C /* 6.jpeg */; };
+		5ABE9D8C1B8BB1E90048FE9C /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7B1B8BB1E90048FE9C /* 6.jpeg */; };
+		5ABE9D8D1B8BB1E90048FE9C /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7C1B8BB1E90048FE9C /* 7.jpeg */; };
+		5ABE9D8E1B8BB1E90048FE9C /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7C1B8BB1E90048FE9C /* 7.jpeg */; };
+		5ABE9D8F1B8BB1E90048FE9C /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7D1B8BB1E90048FE9C /* 8.jpeg */; };
+		5ABE9D901B8BB1E90048FE9C /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7D1B8BB1E90048FE9C /* 8.jpeg */; };
+		5ABE9D911B8BB1E90048FE9C /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7E1B8BB1E90048FE9C /* 9.jpeg */; };
+		5ABE9D921B8BB1E90048FE9C /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE9D7E1B8BB1E90048FE9C /* 9.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +130,16 @@
 		5ABE9D6B1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TYVExtentions.m"; sourceTree = "<group>"; };
 		5ABE9D6F1B8BAF550048FE9C /* NSString+TYVExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TYVExtensions.h"; sourceTree = "<group>"; };
 		5ABE9D701B8BAF550048FE9C /* NSString+TYVExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TYVExtensions.m"; sourceTree = "<group>"; };
+		5ABE9D751B8BB1E90048FE9C /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		5ABE9D761B8BB1E90048FE9C /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		5ABE9D771B8BB1E90048FE9C /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		5ABE9D781B8BB1E90048FE9C /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		5ABE9D791B8BB1E90048FE9C /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		5ABE9D7A1B8BB1E90048FE9C /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		5ABE9D7B1B8BB1E90048FE9C /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		5ABE9D7C1B8BB1E90048FE9C /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		5ABE9D7D1B8BB1E90048FE9C /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		5ABE9D7E1B8BB1E90048FE9C /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +209,7 @@
 		5A8DA2781B8BA09600DD5C4F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5ABE9D741B8BB1E90048FE9C /* Images */,
 				5A8DA2791B8BA09600DD5C4F /* LaunchScreen.xib */,
 				5A8DA27B1B8BA09600DD5C4F /* Main.storyboard */,
 				5A8DA27D1B8BA09600DD5C4F /* Images.xcassets */,
@@ -379,6 +410,23 @@
 			path = "NSString+TYVExtensions";
 			sourceTree = "<group>";
 		};
+		5ABE9D741B8BB1E90048FE9C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE9D751B8BB1E90048FE9C /* 1.jpeg */,
+				5ABE9D761B8BB1E90048FE9C /* 10.jpeg */,
+				5ABE9D771B8BB1E90048FE9C /* 2.jpeg */,
+				5ABE9D781B8BB1E90048FE9C /* 3.jpeg */,
+				5ABE9D791B8BB1E90048FE9C /* 4.jpeg */,
+				5ABE9D7A1B8BB1E90048FE9C /* 5.jpeg */,
+				5ABE9D7B1B8BB1E90048FE9C /* 6.jpeg */,
+				5ABE9D7C1B8BB1E90048FE9C /* 7.jpeg */,
+				5ABE9D7D1B8BB1E90048FE9C /* 8.jpeg */,
+				5ABE9D7E1B8BB1E90048FE9C /* 9.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -459,12 +507,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABE9D8B1B8BB1E90048FE9C /* 6.jpeg in Resources */,
+				5ABE9D8D1B8BB1E90048FE9C /* 7.jpeg in Resources */,
+				5ABE9D7F1B8BB1E90048FE9C /* 1.jpeg in Resources */,
+				5ABE9D911B8BB1E90048FE9C /* 9.jpeg in Resources */,
 				5A8DA2961B8BA09600DD5C4F /* Main.storyboard in Resources */,
 				5A8DA2981B8BA09600DD5C4F /* Images.xcassets in Resources */,
+				5ABE9D8F1B8BB1E90048FE9C /* 8.jpeg in Resources */,
 				5A8DA2B11B8BA34600DD5C4F /* TYVStudentViewCell.xib in Resources */,
+				5ABE9D811B8BB1E90048FE9C /* 10.jpeg in Resources */,
+				5ABE9D851B8BB1E90048FE9C /* 3.jpeg in Resources */,
 				5A8DA2941B8BA09600DD5C4F /* LaunchScreen.xib in Resources */,
 				5A8DA2A41B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */,
+				5ABE9D871B8BB1E90048FE9C /* 4.jpeg in Resources */,
 				5A8DA2901B8BA09600DD5C4F /* Info.plist in Resources */,
+				5ABE9D831B8BB1E90048FE9C /* 2.jpeg in Resources */,
+				5ABE9D891B8BB1E90048FE9C /* 5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,12 +530,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABE9D8C1B8BB1E90048FE9C /* 6.jpeg in Resources */,
+				5ABE9D8E1B8BB1E90048FE9C /* 7.jpeg in Resources */,
+				5ABE9D801B8BB1E90048FE9C /* 1.jpeg in Resources */,
+				5ABE9D921B8BB1E90048FE9C /* 9.jpeg in Resources */,
 				5A8DA2971B8BA09600DD5C4F /* Main.storyboard in Resources */,
 				5A8DA2991B8BA09600DD5C4F /* Images.xcassets in Resources */,
+				5ABE9D901B8BB1E90048FE9C /* 8.jpeg in Resources */,
 				5A8DA2B21B8BA34600DD5C4F /* TYVStudentViewCell.xib in Resources */,
+				5ABE9D821B8BB1E90048FE9C /* 10.jpeg in Resources */,
+				5ABE9D861B8BB1E90048FE9C /* 3.jpeg in Resources */,
 				5A8DA2951B8BA09600DD5C4F /* LaunchScreen.xib in Resources */,
 				5A8DA2A51B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */,
+				5ABE9D881B8BB1E90048FE9C /* 4.jpeg in Resources */,
 				5A8DA2911B8BA09600DD5C4F /* Info.plist in Resources */,
+				5ABE9D841B8BB1E90048FE9C /* 2.jpeg in Resources */,
+				5ABE9D8A1B8BB1E90048FE9C /* 5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,7 +28,8 @@
     TYVStudents *studentsModel = [TYVStudents studentsWithCapacity:TYVDefaultCellsCount];
     
     for (int i = 0; i < TYVDefaultCellsCount; i++) {
-        TYVStudent *student = [[TYVStudent alloc] initWithName:[NSString randomStringWithLength:5] photo:nil];
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%d%@", i + 1,@".jpeg"]];
+        TYVStudent *student = [[TYVStudent alloc] initWithName:[NSString randomStringWithLength:5] photo:image];
         [studentsModel addStundent:student];
     }
     
