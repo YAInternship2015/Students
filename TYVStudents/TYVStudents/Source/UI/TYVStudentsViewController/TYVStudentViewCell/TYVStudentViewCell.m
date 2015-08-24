@@ -7,17 +7,16 @@
 //
 
 #import "TYVStudentViewCell.h"
+#import "TYVStudent.h"
 
 @implementation TYVStudentViewCell
 
-- (void)awakeFromNib {
-    // Initialization code
-}
+#pragma mark -
+#pragma mark Public Methods
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+- (void)fillWithModel:(TYVStudent *)model {
+    self.photoImageView.image = model.photo;
+    self.nameLabel.text = model.name;
 }
 
 @end

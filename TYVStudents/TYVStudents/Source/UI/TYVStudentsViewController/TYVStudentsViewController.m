@@ -9,6 +9,7 @@
 #import "TYVStudentsViewController.h"
 #import "TYVStudentsView.h"
 #import "TYVStudentViewCell.h"
+#import "TYVStudents.h"
 
 #import "UITableView+TYVExtentions.h"
 #import "TYVMacro.h"
@@ -31,7 +32,9 @@ TYVViewControllerProperty(TYVStudentsViewController, rootView, TYVStudentsView)
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    id cell = [tableView reusableCellWithClass:[TYVStudentViewCell class]];
+    TYVStudentViewCell *cell = [tableView reusableCellWithClass:[TYVStudentViewCell class]];
+    [cell fillWithModel:self.studentsModel[indexPath.row]];
+    
     return cell;
 }
 

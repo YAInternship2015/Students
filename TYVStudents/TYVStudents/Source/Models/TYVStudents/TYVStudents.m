@@ -66,4 +66,16 @@
     }
 }
 
+- (TYVStudent *)studentAtIndex:(NSUInteger)index {
+    @synchronized (self) {
+        return self.mutableArray[index];
+    }
+}
+
+- (id)objectAtIndexedSubscript:(NSUInteger)index {
+    @synchronized (self) {
+        return self.mutableArray[index];
+    }
+}
+
 @end

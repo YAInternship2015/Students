@@ -20,4 +20,7 @@
 - (void)removeStundent:(TYVStudent *)student;
 - (void)containsStundent:(TYVStudent *)student;
 
+- (TYVStudent *)studentAtIndex:(NSUInteger)index;
+- (id)objectAtIndexedSubscript:(NSUInteger)index;
+
 @end

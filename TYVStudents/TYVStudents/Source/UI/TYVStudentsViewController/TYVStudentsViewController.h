@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class TYVStudents;
+
 @interface TYVStudentsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, strong)   TYVStudents *studentsModel;
 
 @end

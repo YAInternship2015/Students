@@ -50,6 +50,10 @@
                     <constraint firstAttribute="bottomMargin" secondItem="SUq-pa-dji" secondAttribute="bottom" id="gU7-Vd-lse"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="nameLabel" destination="Gnx-qU-kKI" id="A8X-EW-SvQ"/>
+                <outlet property="photoImageView" destination="0L0-Yo-5E6" id="Qmh-qb-jTh"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>

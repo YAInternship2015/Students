@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class TYVStudent;
+
 @interface TYVStudentViewCell : UITableViewCell
+@property (nonatomic, strong)   IBOutlet UIImageView    *photoImageView;
+@property (nonatomic, strong)   IBOutlet UILabel        *nameLabel;
+
+- (void)fillWithModel:(TYVStudent *)model;
 
 @end
