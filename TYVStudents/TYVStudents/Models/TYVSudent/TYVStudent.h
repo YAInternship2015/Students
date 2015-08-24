@@ -1,5 +1,5 @@
 //
-//  TYVSudent.h
+//  TYVStudent.h
 //  TYVStudents
 //
 //  Created by YURII on 24.08.15.
@@ -8,11 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TYVSudent : NSObject
+@interface TYVStudent : NSObject
 @property (nonatomic, copy) NSString    *name;
 @property (nonatomic, copy) NSString    *photoName;
 
-+ (instancetype)sudent;
++ (instancetype)student;
 
 - (instancetype)initWithName:(NSString *)name
                    photoName:(NSString *)photoName NS_DESIGNATED_INITIALIZER;
