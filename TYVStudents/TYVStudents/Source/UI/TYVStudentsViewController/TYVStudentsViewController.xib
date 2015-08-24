@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TYVStudentsViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="TYVStudentsView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uck-jX-pra">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="EHg-lb-6wr">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="EHg-lb-6wr" secondAttribute="bottom" id="Bfz-xb-gVc"/>
+                        <constraint firstItem="EHg-lb-6wr" firstAttribute="top" secondItem="uck-jX-pra" secondAttribute="top" id="Pyf-uc-Tr3"/>
+                        <constraint firstItem="EHg-lb-6wr" firstAttribute="leading" secondItem="uck-jX-pra" secondAttribute="leading" id="q7I-wo-kIn"/>
+                        <constraint firstAttribute="trailing" secondItem="EHg-lb-6wr" secondAttribute="trailing" id="zxy-a5-vnU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="uck-jX-pra" secondAttribute="bottom" id="EWn-BH-kbJ"/>
+                <constraint firstItem="uck-jX-pra" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MQI-cj-KdI"/>
+                <constraint firstItem="uck-jX-pra" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="eJ9-Zy-Zbx"/>
+                <constraint firstAttribute="trailing" secondItem="uck-jX-pra" secondAttribute="trailing" id="qsA-Fc-qJf"/>
+            </constraints>
+            <connections>
+                <outlet property="tableView" destination="EHg-lb-6wr" id="FsL-LI-71z"/>
+            </connections>
+        </view>
+    </objects>
+</document>
