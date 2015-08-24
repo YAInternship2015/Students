@@ -26,7 +26,7 @@ TYVViewControllerProperty(TYVStudentsViewController, rootView, TYVStudentsView)
 #pragma mark UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return TYVDefaultCellsCount;
+    return [self.studentsModel count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

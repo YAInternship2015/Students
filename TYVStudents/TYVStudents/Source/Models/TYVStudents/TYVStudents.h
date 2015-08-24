@@ -23,4 +23,6 @@
 - (TYVStudent *)studentAtIndex:(NSUInteger)index;
 - (id)objectAtIndexedSubscript:(NSUInteger)index;
 
+- (NSUInteger)count;
+
 @end

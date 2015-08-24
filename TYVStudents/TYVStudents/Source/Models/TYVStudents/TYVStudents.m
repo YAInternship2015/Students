@@ -78,4 +78,10 @@
     }
 }
 
+- (NSUInteger)count {
+    @synchronized (self) {
+        return [self.mutableArray count];
+    }
+}
+
 @end

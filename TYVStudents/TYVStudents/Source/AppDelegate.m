@@ -16,6 +16,8 @@
 #import "UIViewController+TYVExtentions.h"
 #import "NSString+TYVExtensions.h"
 
+static const NSUInteger TYVDefaultCellsCount    =   10;
+
 @interface AppDelegate ()
 
 @end
