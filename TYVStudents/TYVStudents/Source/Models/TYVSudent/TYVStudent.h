@@ -11,11 +11,12 @@
 
 @interface TYVStudent : NSObject
 @property (nonatomic, copy)     NSString    *name;
-@property (nonatomic, strong)   UIImage     *photo;
+@property (nonatomic, copy)     NSString    *photoName;
+@property (nonatomic, readonly) UIImage     *photo;
 
 + (instancetype)student;
 
 - (instancetype)initWithName:(NSString *)name
-                   photo:(UIImage *)photo NS_DESIGNATED_INITIALIZER;
+                   photoName:(NSString *)photoName NS_DESIGNATED_INITIALIZER;
 
 @end

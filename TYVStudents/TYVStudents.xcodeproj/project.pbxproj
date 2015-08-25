@@ -140,6 +140,7 @@
 		5ABE9D7C1B8BB1E90048FE9C /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
 		5ABE9D7D1B8BB1E90048FE9C /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
 		5ABE9D7E1B8BB1E90048FE9C /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+		BF6D6AEF1B8C39390076CE58 /* TYVConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +293,7 @@
 				5ABE9D441B8BA6AA0048FE9C /* Categories */,
 				5A8DA2A81B8BA12B00DD5C4F /* TYVMacro.h */,
 				5A8DA2A91B8BA12B00DD5C4F /* TYVMacro.m */,
+				BF6D6AEF1B8C39390076CE58 /* TYVConstants.h */,
 			);
 			path = Library;
 			sourceTree = "<group>";

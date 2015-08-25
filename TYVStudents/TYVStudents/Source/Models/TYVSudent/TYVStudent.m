@@ -7,28 +7,41 @@
 //
 
 #import "TYVStudent.h"
+#import "TYVConstants.h"
+
+#import "NSString+TYVExtensions.h"
 
 @implementation TYVStudent
+
+@dynamic photo;
 
 #pragma mark -
 #pragma mark Class Methods
 
 + (instancetype)student {
-    return [[self alloc] initWithName:nil photo:nil];
+    return [[self alloc] initWithName:[NSString randomStringWithLength:TYVDefaultNameLength]
+                            photoName:nil];
 }
 
 #pragma mark -
 #pragma Initializations and Dealloations
 
 - (instancetype)initWithName:(NSString *)name
-                       photo:(UIImage *)photo {
+                       photoName:(NSString *)photoName {
     self = [super init];
     if (self) {
         self.name = name;
-        self.photo = photo;
+        self.photoName = photoName;
     }
     
     return self;
+}
+
+#pragma mark -
+#pragma Accessors
+
+- (UIImage *)photo  {
+    return [UIImage imageNamed:self.photoName];
 }
 
 @end

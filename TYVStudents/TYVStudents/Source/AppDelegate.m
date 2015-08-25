@@ -9,14 +9,14 @@
 #import "AppDelegate.h"
 #import "TYVStudentsViewController.h"
 
+#import "TYVConstants.h"
+
 #import "TYVStudent.h"
 #import "TYVStudents.h"
 
 #import "UIWindow+TYVExtentions.h"
 #import "UIViewController+TYVExtentions.h"
 #import "NSString+TYVExtensions.h"
-
-static const NSUInteger TYVDefaultCellsCount    =   10;
 
 @interface AppDelegate ()
 
@@ -30,8 +30,9 @@ static const NSUInteger TYVDefaultCellsCount    =   10;
     TYVStudents *studentsModel = [TYVStudents studentsWithCapacity:TYVDefaultCellsCount];
     
     for (int i = 0; i < TYVDefaultCellsCount; i++) {
-        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%d%@", i + 1,@".jpeg"]];
-        TYVStudent *student = [[TYVStudent alloc] initWithName:[NSString randomStringWithLength:5] photo:image];
+        NSString *photoName = [NSString stringWithFormat:@"%d%@", i + 1,@".jpeg"];
+        TYVStudent *student = [[TYVStudent alloc] initWithName:[NSString randomStringWithLength:TYVDefaultNameLength]
+                                                     photoName:photoName];
         [studentsModel addStundent:student];
     }
     
