@@ -8,38 +8,41 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="StudentCollectionViewCell">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TYVStudentCollectionViewCell">
             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ush-9f-2qt">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TD7-To-z5f">
                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="781-ET-h8e">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gU2-8P-4cv">
                                 <rect key="frame" x="2" y="2" width="46" height="46"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="781-ET-h8e" secondAttribute="height" multiplier="1:1" id="mLa-JE-ObN"/>
+                                    <constraint firstAttribute="width" secondItem="gU2-8P-4cv" secondAttribute="height" multiplier="1:1" id="5Je-HY-F42"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="781-ET-h8e" secondAttribute="centerY" id="GlG-OI-pAZ"/>
-                            <constraint firstItem="781-ET-h8e" firstAttribute="height" secondItem="ush-9f-2qt" secondAttribute="height" multiplier="10:11" id="KoR-wB-jdv"/>
-                            <constraint firstAttribute="centerX" secondItem="781-ET-h8e" secondAttribute="centerX" id="ocQ-vs-EDI"/>
+                            <constraint firstAttribute="height" secondItem="gU2-8P-4cv" secondAttribute="height" multiplier="11:10" id="P2R-0q-uCd"/>
+                            <constraint firstAttribute="centerY" secondItem="gU2-8P-4cv" secondAttribute="centerY" id="eGo-xP-zI4"/>
+                            <constraint firstAttribute="centerX" secondItem="gU2-8P-4cv" secondAttribute="centerX" id="qOe-tU-leD"/>
                         </constraints>
                     </view>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="ush-9f-2qt" secondAttribute="trailing" id="8bd-Uv-1Sw"/>
-                <constraint firstItem="ush-9f-2qt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="TZD-yW-dhV"/>
-                <constraint firstItem="ush-9f-2qt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="aMK-Iq-PVy"/>
-                <constraint firstAttribute="bottom" secondItem="ush-9f-2qt" secondAttribute="bottom" id="daT-hq-CMg"/>
+                <constraint firstItem="TD7-To-z5f" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Svn-uf-18l"/>
+                <constraint firstAttribute="trailing" secondItem="TD7-To-z5f" secondAttribute="trailing" id="cJa-bD-wTt"/>
+                <constraint firstItem="TD7-To-z5f" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fZc-ey-CtI"/>
+                <constraint firstAttribute="bottom" secondItem="TD7-To-z5f" secondAttribute="bottom" id="ibz-cu-GjD"/>
             </constraints>
+            <connections>
+                <outlet property="photoImageView" destination="gU2-8P-4cv" id="Wwa-nz-9ET"/>
+            </connections>
         </collectionViewCell>
     </objects>
 </document>

@@ -10,6 +10,7 @@
 #import "TYVMacro.h"
 #import "TYVStudentsCollectionView.h"
 #import "TYVStudents.h"
+#import "TYVStudentCollectionViewCell.h"
 
 TYVViewControllerProperty(TYVStudentsCollectionViewController, rootView, TYVStudentsCollectionView)
 
@@ -20,11 +21,13 @@ TYVViewControllerProperty(TYVStudentsCollectionViewController, rootView, TYVStud
 @implementation TYVStudentsCollectionViewController
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 0;
+    return 10;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    return nil;
+    [collectionView registerClass:[TYVStudentCollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
+    id cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    return cell;
 }
 
 @end

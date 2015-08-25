@@ -14,10 +14,10 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0qX-c6-Bc1">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0qX-c6-Bc1">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <subviews>
-                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="6KK-M7-jRT">
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="6KK-M7-jRT">
                             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MoP-m9-GNb">
                                 <size key="itemSize" width="50" height="50"/>
@@ -31,10 +31,22 @@
                             </connections>
                         </collectionView>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="6KK-M7-jRT" firstAttribute="leading" secondItem="0qX-c6-Bc1" secondAttribute="leading" id="5Um-zY-tcI"/>
+                        <constraint firstAttribute="bottom" secondItem="6KK-M7-jRT" secondAttribute="bottom" id="Cxf-4a-hYx"/>
+                        <constraint firstItem="6KK-M7-jRT" firstAttribute="top" secondItem="0qX-c6-Bc1" secondAttribute="top" id="bfD-oi-8oO"/>
+                        <constraint firstAttribute="trailing" secondItem="6KK-M7-jRT" secondAttribute="trailing" id="oiP-LT-8M5"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0qX-c6-Bc1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Qva-cp-0B1"/>
+                <constraint firstAttribute="trailing" secondItem="0qX-c6-Bc1" secondAttribute="trailing" id="phr-r8-EtZ"/>
+                <constraint firstItem="0qX-c6-Bc1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rW5-oh-fhw"/>
+                <constraint firstAttribute="bottom" secondItem="0qX-c6-Bc1" secondAttribute="bottom" id="x5L-P2-Yym"/>
+            </constraints>
             <connections>
                 <outlet property="collectionView" destination="6KK-M7-jRT" id="3V2-B8-6sf"/>
             </connections>
