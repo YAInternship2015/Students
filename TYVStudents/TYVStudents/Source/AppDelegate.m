@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TYVStudentsViewController.h"
+#import "TYVStudentsCollectionViewController.h"
 
 #import "TYVConstants.h"
 
@@ -39,7 +40,11 @@
     UIWindow *window = [UIWindow window];
     self.window = window;
     
-    TYVStudentsViewController  *controller = [TYVStudentsViewController controller];
+//    TYVStudentsViewController  *controller = [TYVStudentsViewController controller];
+//    controller.studentsModel = studentsModel;
+//    window.rootViewController = controller;
+    
+    TYVStudentsCollectionViewController *controller = [TYVStudentsCollectionViewController controller];
     controller.studentsModel = studentsModel;
     window.rootViewController = controller;
     
