@@ -84,6 +84,10 @@
 		BF5A430D1B8C8E8900B17095 /* TYVStudentsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5A43091B8C8E8900B17095 /* TYVStudentsCollectionViewController.xib */; };
 		BF5A43111B8C8ED300B17095 /* TYVStudentsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5A43101B8C8ED300B17095 /* TYVStudentsCollectionView.m */; };
 		BF5A43121B8C8ED300B17095 /* TYVStudentsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5A43101B8C8ED300B17095 /* TYVStudentsCollectionView.m */; };
+		BF6CAD721B8D90800018FD93 /* TYVStudentsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6CAD701B8D90800018FD93 /* TYVStudentsNavigationController.m */; };
+		BF6CAD731B8D90800018FD93 /* TYVStudentsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6CAD701B8D90800018FD93 /* TYVStudentsNavigationController.m */; };
+		BF6CAD741B8D90800018FD93 /* TYVStudentsNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6CAD711B8D90800018FD93 /* TYVStudentsNavigationController.xib */; };
+		BF6CAD751B8D90800018FD93 /* TYVStudentsNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6CAD711B8D90800018FD93 /* TYVStudentsNavigationController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +162,9 @@
 		BF5A43091B8C8E8900B17095 /* TYVStudentsCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYVStudentsCollectionViewController.xib; path = TYVStudentsCollectionViewController/TYVStudentsCollectionViewController.xib; sourceTree = "<group>"; };
 		BF5A430F1B8C8ED300B17095 /* TYVStudentsCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYVStudentsCollectionView.h; path = TYVStudentsCollectionViewController/TYVStudentsCollectionView/TYVStudentsCollectionView.h; sourceTree = "<group>"; };
 		BF5A43101B8C8ED300B17095 /* TYVStudentsCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYVStudentsCollectionView.m; path = TYVStudentsCollectionViewController/TYVStudentsCollectionView/TYVStudentsCollectionView.m; sourceTree = "<group>"; };
+		BF6CAD6F1B8D90800018FD93 /* TYVStudentsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYVStudentsNavigationController.h; path = TYVStudentsNavigationController/TYVStudentsNavigationController.h; sourceTree = "<group>"; };
+		BF6CAD701B8D90800018FD93 /* TYVStudentsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYVStudentsNavigationController.m; path = TYVStudentsNavigationController/TYVStudentsNavigationController.m; sourceTree = "<group>"; };
+		BF6CAD711B8D90800018FD93 /* TYVStudentsNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYVStudentsNavigationController.xib; path = TYVStudentsNavigationController/TYVStudentsNavigationController.xib; sourceTree = "<group>"; };
 		BF6D6AEF1B8C39390076CE58 /* TYVConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -280,6 +287,7 @@
 			children = (
 				5A8DA2891B8BA09600DD5C4F /* TYVStudentsViewController */,
 				BF5A430E1B8C8E8D00B17095 /* TYVStudentsCollectionViewController */,
+				BF6CAD761B8D90830018FD93 /* TYVStudentsNavigationController */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -479,6 +487,16 @@
 			name = TYVStudentsCollectionView;
 			sourceTree = "<group>";
 		};
+		BF6CAD761B8D90830018FD93 /* TYVStudentsNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				BF6CAD6F1B8D90800018FD93 /* TYVStudentsNavigationController.h */,
+				BF6CAD701B8D90800018FD93 /* TYVStudentsNavigationController.m */,
+				BF6CAD711B8D90800018FD93 /* TYVStudentsNavigationController.xib */,
+			);
+			name = TYVStudentsNavigationController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -573,6 +591,7 @@
 				5ABE9D851B8BB1E90048FE9C /* 3.jpeg in Resources */,
 				5A8DA2941B8BA09600DD5C4F /* LaunchScreen.xib in Resources */,
 				5A8DA2A41B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */,
+				BF6CAD741B8D90800018FD93 /* TYVStudentsNavigationController.xib in Resources */,
 				5ABE9D871B8BB1E90048FE9C /* 4.jpeg in Resources */,
 				5A8DA2901B8BA09600DD5C4F /* Info.plist in Resources */,
 				5ABE9D831B8BB1E90048FE9C /* 2.jpeg in Resources */,
@@ -598,6 +617,7 @@
 				5ABE9D861B8BB1E90048FE9C /* 3.jpeg in Resources */,
 				5A8DA2951B8BA09600DD5C4F /* LaunchScreen.xib in Resources */,
 				5A8DA2A51B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */,
+				BF6CAD751B8D90800018FD93 /* TYVStudentsNavigationController.xib in Resources */,
 				5ABE9D881B8BB1E90048FE9C /* 4.jpeg in Resources */,
 				5A8DA2911B8BA09600DD5C4F /* Info.plist in Resources */,
 				5ABE9D841B8BB1E90048FE9C /* 2.jpeg in Resources */,
@@ -630,6 +650,7 @@
 				5A8DA2921B8BA09600DD5C4F /* main.m in Sources */,
 				BF5A430A1B8C8E8900B17095 /* TYVStudentsCollectionViewController.m in Sources */,
 				5ABE9D481B8BA6B30048FE9C /* UIWindow+TYVExtentions.m in Sources */,
+				BF6CAD721B8D90800018FD93 /* TYVStudentsNavigationController.m in Sources */,
 				5ABE9D621B8BA9F10048FE9C /* UINib+TYVExtentions.m in Sources */,
 				5ABE9D581B8BA9D20048FE9C /* TYVDataArrayModelInfo.m in Sources */,
 			);
@@ -652,6 +673,7 @@
 				BF5A430B1B8C8E8900B17095 /* TYVStudentsCollectionViewController.m in Sources */,
 				BF5A43121B8C8ED300B17095 /* TYVStudentsCollectionView.m in Sources */,
 				5ABE9D721B8BAF550048FE9C /* NSString+TYVExtensions.m in Sources */,
+				BF6CAD731B8D90800018FD93 /* TYVStudentsNavigationController.m in Sources */,
 				5A8DA29D1B8BA09600DD5C4F /* TYVStudents.m in Sources */,
 				5A8DA2471B8B977000DD5C4F /* TYVStudentsTests.m in Sources */,
 				5ABE9D681B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.m in Sources */,

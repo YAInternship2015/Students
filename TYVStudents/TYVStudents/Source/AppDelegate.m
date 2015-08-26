@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "TYVStudentsViewController.h"
 #import "TYVStudentsCollectionViewController.h"
+#import "TYVStudentsNavigationController.h"
 
 #import "TYVConstants.h"
 
@@ -49,7 +50,10 @@ static const NSUInteger TYVdefaultImagesCount = 10;
     
     TYVStudentsCollectionViewController *controller = [TYVStudentsCollectionViewController controller];
     controller.studentsModel = studentsModel;
-    window.rootViewController = controller;
+//    window.rootViewController = controller;
+    
+    TYVStudentsNavigationController *navigationController = [[TYVStudentsNavigationController alloc] initWithRootViewController:controller];
+    window.rootViewController = navigationController;
     
     [window makeKeyAndVisible];
     
