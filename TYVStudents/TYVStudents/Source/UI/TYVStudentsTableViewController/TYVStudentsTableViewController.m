@@ -10,7 +10,9 @@
 #import "TYVStudentsTableView.h"
 #import "TYVStudentTableViewCell.h"
 #import "TYVStudents.h"
+#import "TYVStudentsCollectionViewController.h"
 
+#import "UIViewController+TYVExtentions.h"
 #import "UITableView+TYVExtentions.h"
 #import "TYVMacro.h"
 
@@ -21,6 +23,24 @@ TYVViewControllerProperty(TYVStudentsTableViewController, rootView, TYVStudentsT
 @end
 
 @implementation TYVStudentsTableViewController
+
+#pragma mark -
+#pragma mark Accessors
+
+- (NSString *)buttonTitle {
+    return @"CollectionView";
+}
+
+#pragma mark -
+#pragma mark Button Handler
+
+- (void)onBarButtonClick {
+    NSLog(@"HELLO WORLD");
+    
+    TYVStudentsCollectionViewController  *controller = [TYVStudentsCollectionViewController controller];
+    controller.studentsModel = self.studentsModel;
+    [self.navigationController pushViewController:controller animated:YES];
+}
 
 #pragma mark -
 #pragma mark UITableViewDataSource

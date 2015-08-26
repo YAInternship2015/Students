@@ -14,4 +14,32 @@
 
 @implementation TYVStudentsViewController
 
+@dynamic buttonTitle;
+
+#pragma mark -
+#pragma mark Accessors
+
+- (NSString *)buttonTitle {
+    return nil;
+}
+
+#pragma mark -
+#pragma mark View LifeCycle
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:self.buttonTitle
+                                                                             style:UIBarButtonItemStylePlain
+                                                                            target:self
+                                                                            action:@selector(onBarButtonClick)];
+}
+
+#pragma mark -
+#pragma mark Button Handler
+
+- (void)onBarButtonClick {
+    
+}
+
 @end

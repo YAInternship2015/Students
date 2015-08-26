@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface TYVStudentsViewController : UIViewController
+@property (nonatomic, readonly)   NSString    *buttonTitle;
+
+
+// This methods for overloading
+- (void)onBarButtonClick;
 
 @end
