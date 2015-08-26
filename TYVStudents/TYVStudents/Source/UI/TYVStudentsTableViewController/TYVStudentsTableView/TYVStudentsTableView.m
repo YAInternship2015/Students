@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 YURII. All rights reserved.
 //
 
-#import "TYVStudentsView.h"
+#import "TYVStudentsTableView.h"
 
-@implementation TYVStudentsView
+@implementation TYVStudentsTableView
 
 @end

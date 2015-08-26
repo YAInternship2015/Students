@@ -1,26 +1,26 @@
 //
-//  TYVStudentsViewController.m
+//  TYVStudentsTableViewController.m
 //  TYVStudents
 //
 //  Created by YURII on 24.08.15.
 //  Copyright (c) 2015 YURII. All rights reserved.
 //
 
-#import "TYVStudentsViewController.h"
-#import "TYVStudentsView.h"
-#import "TYVStudentViewCell.h"
+#import "TYVStudentsTableViewController.h"
+#import "TYVStudentsTableView.h"
+#import "TYVStudentTableViewCell.h"
 #import "TYVStudents.h"
 
 #import "UITableView+TYVExtentions.h"
 #import "TYVMacro.h"
 
-TYVViewControllerProperty(TYVStudentsViewController, rootView, TYVStudentsView)
+TYVViewControllerProperty(TYVStudentsTableViewController, rootView, TYVStudentsTableView)
 
-@interface TYVStudentsViewController ()
+@interface TYVStudentsTableViewController ()
 
 @end
 
-@implementation TYVStudentsViewController
+@implementation TYVStudentsTableViewController
 
 #pragma mark -
 #pragma mark UITableViewDataSource
@@ -30,7 +30,7 @@ TYVViewControllerProperty(TYVStudentsViewController, rootView, TYVStudentsView)
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    TYVStudentViewCell *cell = [tableView reusableCellWithClass:[TYVStudentViewCell class]];
+    TYVStudentTableViewCell *cell = [tableView reusableCellWithClass:[TYVStudentTableViewCell class]];
     [cell fillWithModel:self.studentsModel[indexPath.row]];
     
     return cell;

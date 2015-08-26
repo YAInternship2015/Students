@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1DFD731B8E3A18009BFCFB /* TYVStudentsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DFD6B1B8E3A18009BFCFB /* TYVStudentsTableView.m */; };
+		5A1DFD741B8E3A18009BFCFB /* TYVStudentsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DFD6B1B8E3A18009BFCFB /* TYVStudentsTableView.m */; };
+		5A1DFD751B8E3A18009BFCFB /* TYVStudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DFD6D1B8E3A18009BFCFB /* TYVStudentsTableViewController.m */; };
+		5A1DFD761B8E3A18009BFCFB /* TYVStudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DFD6D1B8E3A18009BFCFB /* TYVStudentsTableViewController.m */; };
+		5A1DFD771B8E3A18009BFCFB /* TYVStudentsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1DFD6E1B8E3A18009BFCFB /* TYVStudentsTableViewController.xib */; };
+		5A1DFD781B8E3A18009BFCFB /* TYVStudentsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1DFD6E1B8E3A18009BFCFB /* TYVStudentsTableViewController.xib */; };
+		5A1DFD791B8E3A18009BFCFB /* TYVStudentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DFD711B8E3A18009BFCFB /* TYVStudentTableViewCell.m */; };
+		5A1DFD7A1B8E3A18009BFCFB /* TYVStudentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DFD711B8E3A18009BFCFB /* TYVStudentTableViewCell.m */; };
+		5A1DFD7B1B8E3A18009BFCFB /* TYVStudentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1DFD721B8E3A18009BFCFB /* TYVStudentTableViewCell.xib */; };
+		5A1DFD7C1B8E3A18009BFCFB /* TYVStudentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1DFD721B8E3A18009BFCFB /* TYVStudentTableViewCell.xib */; };
 		5A8DA2471B8B977000DD5C4F /* TYVStudentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2461B8B977000DD5C4F /* TYVStudentsTests.m */; };
 		5A8DA2901B8BA09600DD5C4F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2761B8BA09600DD5C4F /* Info.plist */; };
 		5A8DA2911B8BA09600DD5C4F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2761B8BA09600DD5C4F /* Info.plist */; };
@@ -24,18 +34,8 @@
 		5A8DA29D1B8BA09600DD5C4F /* TYVStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2841B8BA09600DD5C4F /* TYVStudents.m */; };
 		5A8DA29E1B8BA09600DD5C4F /* TYVStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2871B8BA09600DD5C4F /* TYVStudent.m */; };
 		5A8DA29F1B8BA09600DD5C4F /* TYVStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2871B8BA09600DD5C4F /* TYVStudent.m */; };
-		5A8DA2A01B8BA09600DD5C4F /* TYVStudentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA28C1B8BA09600DD5C4F /* TYVStudentsView.m */; };
-		5A8DA2A11B8BA09600DD5C4F /* TYVStudentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA28C1B8BA09600DD5C4F /* TYVStudentsView.m */; };
-		5A8DA2A21B8BA09600DD5C4F /* TYVStudentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA28E1B8BA09600DD5C4F /* TYVStudentsViewController.m */; };
-		5A8DA2A31B8BA09600DD5C4F /* TYVStudentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA28E1B8BA09600DD5C4F /* TYVStudentsViewController.m */; };
-		5A8DA2A41B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA28F1B8BA09600DD5C4F /* TYVStudentsViewController.xib */; };
-		5A8DA2A51B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA28F1B8BA09600DD5C4F /* TYVStudentsViewController.xib */; };
 		5A8DA2AA1B8BA12B00DD5C4F /* TYVMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2A91B8BA12B00DD5C4F /* TYVMacro.m */; };
 		5A8DA2AB1B8BA12B00DD5C4F /* TYVMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2A91B8BA12B00DD5C4F /* TYVMacro.m */; };
-		5A8DA2AF1B8BA34600DD5C4F /* TYVStudentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2AD1B8BA34600DD5C4F /* TYVStudentViewCell.m */; };
-		5A8DA2B01B8BA34600DD5C4F /* TYVStudentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA2AD1B8BA34600DD5C4F /* TYVStudentViewCell.m */; };
-		5A8DA2B11B8BA34600DD5C4F /* TYVStudentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2AE1B8BA34600DD5C4F /* TYVStudentViewCell.xib */; };
-		5A8DA2B21B8BA34600DD5C4F /* TYVStudentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA2AE1B8BA34600DD5C4F /* TYVStudentViewCell.xib */; };
 		5ABE9D481B8BA6B30048FE9C /* UIWindow+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D471B8BA6B30048FE9C /* UIWindow+TYVExtentions.m */; };
 		5ABE9D491B8BA6B30048FE9C /* UIWindow+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D471B8BA6B30048FE9C /* UIWindow+TYVExtentions.m */; };
 		5ABE9D4D1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9D4C1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m */; };
@@ -101,6 +101,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A1DFD6A1B8E3A18009BFCFB /* TYVStudentsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVStudentsTableView.h; sourceTree = "<group>"; };
+		5A1DFD6B1B8E3A18009BFCFB /* TYVStudentsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudentsTableView.m; sourceTree = "<group>"; };
+		5A1DFD6C1B8E3A18009BFCFB /* TYVStudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVStudentsTableViewController.h; sourceTree = "<group>"; };
+		5A1DFD6D1B8E3A18009BFCFB /* TYVStudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudentsTableViewController.m; sourceTree = "<group>"; };
+		5A1DFD6E1B8E3A18009BFCFB /* TYVStudentsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYVStudentsTableViewController.xib; sourceTree = "<group>"; };
+		5A1DFD701B8E3A18009BFCFB /* TYVStudentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVStudentTableViewCell.h; sourceTree = "<group>"; };
+		5A1DFD711B8E3A18009BFCFB /* TYVStudentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudentTableViewCell.m; sourceTree = "<group>"; };
+		5A1DFD721B8E3A18009BFCFB /* TYVStudentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYVStudentTableViewCell.xib; sourceTree = "<group>"; };
 		5A8DA2271B8B977000DD5C4F /* TYVStudents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYVStudents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8DA2401B8B977000DD5C4F /* TYVStudentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYVStudentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8DA2451B8B977000DD5C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,16 +124,8 @@
 		5A8DA2841B8BA09600DD5C4F /* TYVStudents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudents.m; sourceTree = "<group>"; };
 		5A8DA2861B8BA09600DD5C4F /* TYVStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVStudent.h; sourceTree = "<group>"; };
 		5A8DA2871B8BA09600DD5C4F /* TYVStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudent.m; sourceTree = "<group>"; };
-		5A8DA28B1B8BA09600DD5C4F /* TYVStudentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVStudentsView.h; sourceTree = "<group>"; };
-		5A8DA28C1B8BA09600DD5C4F /* TYVStudentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudentsView.m; sourceTree = "<group>"; };
-		5A8DA28D1B8BA09600DD5C4F /* TYVStudentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVStudentsViewController.h; sourceTree = "<group>"; };
-		5A8DA28E1B8BA09600DD5C4F /* TYVStudentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVStudentsViewController.m; sourceTree = "<group>"; };
-		5A8DA28F1B8BA09600DD5C4F /* TYVStudentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYVStudentsViewController.xib; sourceTree = "<group>"; };
 		5A8DA2A81B8BA12B00DD5C4F /* TYVMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVMacro.h; sourceTree = "<group>"; };
 		5A8DA2A91B8BA12B00DD5C4F /* TYVMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVMacro.m; sourceTree = "<group>"; };
-		5A8DA2AC1B8BA34600DD5C4F /* TYVStudentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYVStudentViewCell.h; path = TYVStudentViewCell/TYVStudentViewCell.h; sourceTree = "<group>"; };
-		5A8DA2AD1B8BA34600DD5C4F /* TYVStudentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYVStudentViewCell.m; path = TYVStudentViewCell/TYVStudentViewCell.m; sourceTree = "<group>"; };
-		5A8DA2AE1B8BA34600DD5C4F /* TYVStudentViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYVStudentViewCell.xib; path = TYVStudentViewCell/TYVStudentViewCell.xib; sourceTree = "<group>"; };
 		5ABE9D461B8BA6B30048FE9C /* UIWindow+TYVExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+TYVExtentions.h"; sourceTree = "<group>"; };
 		5ABE9D471B8BA6B30048FE9C /* UIWindow+TYVExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+TYVExtentions.m"; sourceTree = "<group>"; };
 		5ABE9D4B1B8BA70F0048FE9C /* UIViewController+TYVExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TYVExtentions.h"; sourceTree = "<group>"; };
@@ -186,6 +186,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A1DFD681B8E3A18009BFCFB /* TYVStudentsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A1DFD691B8E3A18009BFCFB /* TYVStudentsTableView */,
+				5A1DFD6C1B8E3A18009BFCFB /* TYVStudentsTableViewController.h */,
+				5A1DFD6D1B8E3A18009BFCFB /* TYVStudentsTableViewController.m */,
+				5A1DFD6E1B8E3A18009BFCFB /* TYVStudentsTableViewController.xib */,
+				5A1DFD6F1B8E3A18009BFCFB /* TYVStudentTableViewCell */,
+			);
+			path = TYVStudentsTableViewController;
+			sourceTree = "<group>";
+		};
+		5A1DFD691B8E3A18009BFCFB /* TYVStudentsTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5A1DFD6A1B8E3A18009BFCFB /* TYVStudentsTableView.h */,
+				5A1DFD6B1B8E3A18009BFCFB /* TYVStudentsTableView.m */,
+			);
+			path = TYVStudentsTableView;
+			sourceTree = "<group>";
+		};
+		5A1DFD6F1B8E3A18009BFCFB /* TYVStudentTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5A1DFD701B8E3A18009BFCFB /* TYVStudentTableViewCell.h */,
+				5A1DFD711B8E3A18009BFCFB /* TYVStudentTableViewCell.m */,
+				5A1DFD721B8E3A18009BFCFB /* TYVStudentTableViewCell.xib */,
+			);
+			path = TYVStudentTableViewCell;
+			sourceTree = "<group>";
+		};
 		5A8DA21E1B8B977000DD5C4F = {
 			isa = PBXGroup;
 			children = (
@@ -285,32 +316,11 @@
 		5A8DA2881B8BA09600DD5C4F /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				5A8DA2891B8BA09600DD5C4F /* TYVStudentsViewController */,
+				5A1DFD681B8E3A18009BFCFB /* TYVStudentsTableViewController */,
 				BF5A430E1B8C8E8D00B17095 /* TYVStudentsCollectionViewController */,
 				BF6CAD761B8D90830018FD93 /* TYVStudentsNavigationController */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		5A8DA2891B8BA09600DD5C4F /* TYVStudentsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				5A8DA28A1B8BA09600DD5C4F /* TYVStudentsView */,
-				5A8DA28D1B8BA09600DD5C4F /* TYVStudentsViewController.h */,
-				5A8DA28E1B8BA09600DD5C4F /* TYVStudentsViewController.m */,
-				5A8DA28F1B8BA09600DD5C4F /* TYVStudentsViewController.xib */,
-				5A8DA2B31B8BA34D00DD5C4F /* TYVStudentViewCell */,
-			);
-			path = TYVStudentsViewController;
-			sourceTree = "<group>";
-		};
-		5A8DA28A1B8BA09600DD5C4F /* TYVStudentsView */ = {
-			isa = PBXGroup;
-			children = (
-				5A8DA28B1B8BA09600DD5C4F /* TYVStudentsView.h */,
-				5A8DA28C1B8BA09600DD5C4F /* TYVStudentsView.m */,
-			);
-			path = TYVStudentsView;
 			sourceTree = "<group>";
 		};
 		5A8DA2A71B8BA12B00DD5C4F /* Library */ = {
@@ -323,16 +333,6 @@
 				BF6D6AEF1B8C39390076CE58 /* TYVConstants.h */,
 			);
 			path = Library;
-			sourceTree = "<group>";
-		};
-		5A8DA2B31B8BA34D00DD5C4F /* TYVStudentViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				5A8DA2AC1B8BA34600DD5C4F /* TYVStudentViewCell.h */,
-				5A8DA2AD1B8BA34600DD5C4F /* TYVStudentViewCell.m */,
-				5A8DA2AE1B8BA34600DD5C4F /* TYVStudentViewCell.xib */,
-			);
-			name = TYVStudentViewCell;
 			sourceTree = "<group>";
 		};
 		5ABE9D441B8BA6AA0048FE9C /* Categories */ = {
@@ -578,6 +578,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ABE9D8B1B8BB1E90048FE9C /* 6.jpeg in Resources */,
+				5A1DFD771B8E3A18009BFCFB /* TYVStudentsTableViewController.xib in Resources */,
 				BF5A430C1B8C8E8900B17095 /* TYVStudentsCollectionViewController.xib in Resources */,
 				5ABE9D8D1B8BB1E90048FE9C /* 7.jpeg in Resources */,
 				5ABE9D7F1B8BB1E90048FE9C /* 1.jpeg in Resources */,
@@ -585,12 +586,11 @@
 				5A8DA2961B8BA09600DD5C4F /* Main.storyboard in Resources */,
 				BF47105C1B8CA9FD00F66FC3 /* TYVStudentCollectionViewCell.xib in Resources */,
 				5A8DA2981B8BA09600DD5C4F /* Images.xcassets in Resources */,
+				5A1DFD7B1B8E3A18009BFCFB /* TYVStudentTableViewCell.xib in Resources */,
 				5ABE9D8F1B8BB1E90048FE9C /* 8.jpeg in Resources */,
-				5A8DA2B11B8BA34600DD5C4F /* TYVStudentViewCell.xib in Resources */,
 				5ABE9D811B8BB1E90048FE9C /* 10.jpeg in Resources */,
 				5ABE9D851B8BB1E90048FE9C /* 3.jpeg in Resources */,
 				5A8DA2941B8BA09600DD5C4F /* LaunchScreen.xib in Resources */,
-				5A8DA2A41B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */,
 				BF6CAD741B8D90800018FD93 /* TYVStudentsNavigationController.xib in Resources */,
 				5ABE9D871B8BB1E90048FE9C /* 4.jpeg in Resources */,
 				5A8DA2901B8BA09600DD5C4F /* Info.plist in Resources */,
@@ -604,6 +604,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ABE9D8C1B8BB1E90048FE9C /* 6.jpeg in Resources */,
+				5A1DFD781B8E3A18009BFCFB /* TYVStudentsTableViewController.xib in Resources */,
 				BF5A430D1B8C8E8900B17095 /* TYVStudentsCollectionViewController.xib in Resources */,
 				5ABE9D8E1B8BB1E90048FE9C /* 7.jpeg in Resources */,
 				5ABE9D801B8BB1E90048FE9C /* 1.jpeg in Resources */,
@@ -611,12 +612,11 @@
 				5A8DA2971B8BA09600DD5C4F /* Main.storyboard in Resources */,
 				BF47105D1B8CA9FD00F66FC3 /* TYVStudentCollectionViewCell.xib in Resources */,
 				5A8DA2991B8BA09600DD5C4F /* Images.xcassets in Resources */,
+				5A1DFD7C1B8E3A18009BFCFB /* TYVStudentTableViewCell.xib in Resources */,
 				5ABE9D901B8BB1E90048FE9C /* 8.jpeg in Resources */,
-				5A8DA2B21B8BA34600DD5C4F /* TYVStudentViewCell.xib in Resources */,
 				5ABE9D821B8BB1E90048FE9C /* 10.jpeg in Resources */,
 				5ABE9D861B8BB1E90048FE9C /* 3.jpeg in Resources */,
 				5A8DA2951B8BA09600DD5C4F /* LaunchScreen.xib in Resources */,
-				5A8DA2A51B8BA09600DD5C4F /* TYVStudentsViewController.xib in Resources */,
 				BF6CAD751B8D90800018FD93 /* TYVStudentsNavigationController.xib in Resources */,
 				5ABE9D881B8BB1E90048FE9C /* 4.jpeg in Resources */,
 				5A8DA2911B8BA09600DD5C4F /* Info.plist in Resources */,
@@ -632,7 +632,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8DA2A01B8BA09600DD5C4F /* TYVStudentsView.m in Sources */,
 				5ABE9D711B8BAF550048FE9C /* NSString+TYVExtensions.m in Sources */,
 				BF47105A1B8CA9FD00F66FC3 /* TYVStudentCollectionViewCell.m in Sources */,
 				5ABE9D6C1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m in Sources */,
@@ -640,16 +639,17 @@
 				5A8DA29E1B8BA09600DD5C4F /* TYVStudent.m in Sources */,
 				BF5A43111B8C8ED300B17095 /* TYVStudentsCollectionView.m in Sources */,
 				5A8DA29A1B8BA09600DD5C4F /* AppDelegate.m in Sources */,
-				5A8DA2AF1B8BA34600DD5C4F /* TYVStudentViewCell.m in Sources */,
 				5ABE9D5D1B8BA9E30048FE9C /* TYVModelMovingPosition.m in Sources */,
-				5A8DA2A21B8BA09600DD5C4F /* TYVStudentsViewController.m in Sources */,
 				5ABE9D4D1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m in Sources */,
 				5A8DA2AA1B8BA12B00DD5C4F /* TYVMacro.m in Sources */,
+				5A1DFD751B8E3A18009BFCFB /* TYVStudentsTableViewController.m in Sources */,
 				5ABE9D671B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.m in Sources */,
 				5ABE9D521B8BA9690048FE9C /* UITableView+TYVExtentions.m in Sources */,
 				5A8DA2921B8BA09600DD5C4F /* main.m in Sources */,
 				BF5A430A1B8C8E8900B17095 /* TYVStudentsCollectionViewController.m in Sources */,
+				5A1DFD731B8E3A18009BFCFB /* TYVStudentsTableView.m in Sources */,
 				5ABE9D481B8BA6B30048FE9C /* UIWindow+TYVExtentions.m in Sources */,
+				5A1DFD791B8E3A18009BFCFB /* TYVStudentTableViewCell.m in Sources */,
 				BF6CAD721B8D90800018FD93 /* TYVStudentsNavigationController.m in Sources */,
 				5ABE9D621B8BA9F10048FE9C /* UINib+TYVExtentions.m in Sources */,
 				5ABE9D581B8BA9D20048FE9C /* TYVDataArrayModelInfo.m in Sources */,
@@ -660,14 +660,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8DA2A31B8BA09600DD5C4F /* TYVStudentsViewController.m in Sources */,
 				BF47105B1B8CA9FD00F66FC3 /* TYVStudentCollectionViewCell.m in Sources */,
+				5A1DFD741B8E3A18009BFCFB /* TYVStudentsTableView.m in Sources */,
 				5A8DA2931B8BA09600DD5C4F /* main.m in Sources */,
 				5ABE9D531B8BA9690048FE9C /* UITableView+TYVExtentions.m in Sources */,
 				5ABE9D631B8BA9F10048FE9C /* UINib+TYVExtentions.m in Sources */,
-				5A8DA2B01B8BA34600DD5C4F /* TYVStudentViewCell.m in Sources */,
 				5ABE9D5E1B8BA9E30048FE9C /* TYVModelMovingPosition.m in Sources */,
 				5ABE9D6D1B8BAAFA0048FE9C /* NSArray+TYVExtentions.m in Sources */,
+				5A1DFD7A1B8E3A18009BFCFB /* TYVStudentTableViewCell.m in Sources */,
 				5A8DA2AB1B8BA12B00DD5C4F /* TYVMacro.m in Sources */,
 				5ABE9D591B8BA9D20048FE9C /* TYVDataArrayModelInfo.m in Sources */,
 				BF5A430B1B8C8E8900B17095 /* TYVStudentsCollectionViewController.m in Sources */,
@@ -675,10 +675,10 @@
 				5ABE9D721B8BAF550048FE9C /* NSString+TYVExtensions.m in Sources */,
 				BF6CAD731B8D90800018FD93 /* TYVStudentsNavigationController.m in Sources */,
 				5A8DA29D1B8BA09600DD5C4F /* TYVStudents.m in Sources */,
+				5A1DFD761B8E3A18009BFCFB /* TYVStudentsTableViewController.m in Sources */,
 				5A8DA2471B8B977000DD5C4F /* TYVStudentsTests.m in Sources */,
 				5ABE9D681B8BAAD50048FE9C /* NSIndexPath+TYVExtensions.m in Sources */,
 				5A8DA29F1B8BA09600DD5C4F /* TYVStudent.m in Sources */,
-				5A8DA2A11B8BA09600DD5C4F /* TYVStudentsView.m in Sources */,
 				5ABE9D4E1B8BA70F0048FE9C /* UIViewController+TYVExtentions.m in Sources */,
 				5ABE9D491B8BA6B30048FE9C /* UIWindow+TYVExtentions.m in Sources */,
 				5A8DA29B1B8BA09600DD5C4F /* AppDelegate.m in Sources */,

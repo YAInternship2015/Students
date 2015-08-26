@@ -1,5 +1,5 @@
 //
-//  TYVStudentsView.h
+//  TYVStudentsTableView.h
 //  TYVStudents
 //
 //  Created by YURII on 24.08.15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TYVStudentsView : UIView
+@interface TYVStudentsTableView : UIView
 @property (nonatomic, strong)   IBOutlet UITableView    *tableView;
 
 @end

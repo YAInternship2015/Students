@@ -1,5 +1,5 @@
 //
-//  TYVStudentsViewController.h
+//  TYVStudentsTableViewController.h
 //  TYVStudents
 //
 //  Created by YURII on 24.08.15.
@@ -10,7 +10,7 @@
 
 @class TYVStudents;
 
-@interface TYVStudentsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface TYVStudentsTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong)   TYVStudents *studentsModel;
 
 @end

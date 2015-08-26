@@ -1,5 +1,5 @@
 //
-//  TYVStudentViewCell.h
+//  TYVStudentTableViewCell.h
 //  TYVStudents
 //
 //  Created by YURII on 24.08.15.
@@ -10,7 +10,7 @@
 
 @class TYVStudent;
 
-@interface TYVStudentViewCell : UITableViewCell
+@interface TYVStudentTableViewCell : UITableViewCell
 @property (nonatomic, strong)   IBOutlet UIImageView    *photoImageView;
 @property (nonatomic, strong)   IBOutlet UILabel        *nameLabel;
 
