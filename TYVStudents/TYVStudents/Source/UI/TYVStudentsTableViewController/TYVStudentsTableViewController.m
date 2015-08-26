@@ -35,8 +35,6 @@ TYVViewControllerProperty(TYVStudentsTableViewController, rootView, TYVStudentsT
 #pragma mark Button Handler
 
 - (void)onBarButtonClick {
-    NSLog(@"HELLO WORLD");
-    
     TYVStudentsCollectionViewController  *controller = [TYVStudentsCollectionViewController controller];
     controller.studentsModel = self.studentsModel;
     [self.navigationController pushViewController:controller animated:YES];
