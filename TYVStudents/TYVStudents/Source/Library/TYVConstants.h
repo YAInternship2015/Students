@@ -8,5 +8,5 @@
 
 #import <Foundation/Foundation.h>
 
-static const NSUInteger TYVDefaultCellsCount    =   10;
+static const NSUInteger TYVDefaultCellsCount    =   1000;
 static const NSUInteger TYVDefaultNameLength    =   7;

@@ -19,6 +19,8 @@
 #import "UIViewController+TYVExtentions.h"
 #import "NSString+TYVExtensions.h"
 
+static const NSUInteger TYVdefaultImagesCount = 10;
+
 @interface AppDelegate ()
 
 @end
@@ -31,7 +33,8 @@
     TYVStudents *studentsModel = [TYVStudents studentsWithCapacity:TYVDefaultCellsCount];
     
     for (int i = 0; i < TYVDefaultCellsCount; i++) {
-        NSString *photoName = [NSString stringWithFormat:@"%d%@", i + 1,@".jpeg"];
+        NSUInteger index = arc4random_uniform(TYVdefaultImagesCount);
+        NSString *photoName = [NSString stringWithFormat:@"%lu%@", index + 1,@".jpeg"];
         TYVStudent *student = [[TYVStudent alloc] initWithName:[NSString randomStringWithLength:TYVDefaultNameLength]
                                                      photoName:photoName];
         [studentsModel addStundent:student];

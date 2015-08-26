@@ -10,7 +10,12 @@
 #import "TYVMacro.h"
 #import "TYVStudentsCollectionView.h"
 #import "TYVStudents.h"
+#import "TYVStudent.h"
 #import "TYVStudentCollectionViewCell.h"
+
+#import "UINib+TYVExtentions.h"
+
+static NSString * const TYVDefaultCellIndentifier  = @"cell";
 
 TYVViewControllerProperty(TYVStudentsCollectionViewController, rootView, TYVStudentsCollectionView)
 
@@ -20,13 +25,23 @@ TYVViewControllerProperty(TYVStudentsCollectionViewController, rootView, TYVStud
 
 @implementation TYVStudentsCollectionViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [self.rootView.collectionView registerNib:[UINib nibWithClass:[TYVStudentCollectionViewCell class]]
+                   forCellWithReuseIdentifier:TYVDefaultCellIndentifier];
+
+}
+
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 10;
+    return [self.studentsModel count];
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    [collectionView registerClass:[TYVStudentCollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
-    id cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    TYVStudentCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:TYVDefaultCellIndentifier
+                                                                                   forIndexPath:indexPath];
+    [cell fillWithModel:self.studentsModel[indexPath.row]];
+    
     return cell;
 }
 
