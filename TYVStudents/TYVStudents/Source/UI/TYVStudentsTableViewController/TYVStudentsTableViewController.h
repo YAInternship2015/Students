@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TYVStudentsViewController.h"
 
 @class TYVStudents;
 
-@interface TYVStudentsTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface TYVStudentsTableViewController : TYVStudentsViewController <UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong)   TYVStudents *studentsModel;
 
 @end
