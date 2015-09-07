@@ -96,6 +96,8 @@
 		BFA294611B9D65BA005E6F5D /* TYVProtocolObservableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA294571B9D65BA005E6F5D /* TYVProtocolObservableObject.m */; };
 		BFA294651B9D6603005E6F5D /* NSMutableArray+TYVExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA294641B9D6603005E6F5D /* NSMutableArray+TYVExtensions.m */; };
 		BFA294661B9D6603005E6F5D /* NSMutableArray+TYVExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA294641B9D6603005E6F5D /* NSMutableArray+TYVExtensions.m */; };
+		BFA2946A1B9D6980005E6F5D /* NSFileManager+TYVExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA294691B9D6980005E6F5D /* NSFileManager+TYVExtensions.m */; };
+		BFA2946B1B9D6980005E6F5D /* NSFileManager+TYVExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA294691B9D6980005E6F5D /* NSFileManager+TYVExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +185,8 @@
 		BFA294571B9D65BA005E6F5D /* TYVProtocolObservableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVProtocolObservableObject.m; sourceTree = "<group>"; };
 		BFA294631B9D6603005E6F5D /* NSMutableArray+TYVExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TYVExtensions.h"; sourceTree = "<group>"; };
 		BFA294641B9D6603005E6F5D /* NSMutableArray+TYVExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+TYVExtensions.m"; sourceTree = "<group>"; };
+		BFA294681B9D6980005E6F5D /* NSFileManager+TYVExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TYVExtensions.h"; sourceTree = "<group>"; };
+		BFA294691B9D6980005E6F5D /* NSFileManager+TYVExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TYVExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,6 +359,7 @@
 		5ABE9D441B8BA6AA0048FE9C /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				BFA294671B9D6980005E6F5D /* NSFileManager+TYVExtensions */,
 				BFA294621B9D6603005E6F5D /* NSMutableArray+TYVExtensions */,
 				5ABE9D6E1B8BAF550048FE9C /* NSString+TYVExtensions */,
 				5ABE9D691B8BAAFA0048FE9C /* NSArray+TYVExtentions */,
@@ -555,6 +560,15 @@
 			path = "NSMutableArray+TYVExtensions";
 			sourceTree = "<group>";
 		};
+		BFA294671B9D6980005E6F5D /* NSFileManager+TYVExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				BFA294681B9D6980005E6F5D /* NSFileManager+TYVExtensions.h */,
+				BFA294691B9D6980005E6F5D /* NSFileManager+TYVExtensions.m */,
+			);
+			path = "NSFileManager+TYVExtensions";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -700,6 +714,7 @@
 				5A8DA29E1B8BA09600DD5C4F /* TYVStudent.m in Sources */,
 				BF5A43111B8C8ED300B17095 /* TYVStudentsCollectionView.m in Sources */,
 				BFA294581B9D65BA005E6F5D /* TYVAbstractDataModel.m in Sources */,
+				BFA2946A1B9D6980005E6F5D /* NSFileManager+TYVExtensions.m in Sources */,
 				BFA2945A1B9D65BA005E6F5D /* TYVDataArrayModelInfo.m in Sources */,
 				5A8DA29A1B8BA09600DD5C4F /* AppDelegate.m in Sources */,
 				5A8DA2AF1B8BA34600DD5C4F /* TYVStudentViewCell.m in Sources */,
@@ -725,6 +740,7 @@
 				5A8DA2A31B8BA09600DD5C4F /* TYVStudentsViewController.m in Sources */,
 				BF47105B1B8CA9FD00F66FC3 /* TYVStudentCollectionViewCell.m in Sources */,
 				5A8DA2931B8BA09600DD5C4F /* main.m in Sources */,
+				BFA2946B1B9D6980005E6F5D /* NSFileManager+TYVExtensions.m in Sources */,
 				5ABE9D531B8BA9690048FE9C /* UITableView+TYVExtentions.m in Sources */,
 				5ABE9D631B8BA9F10048FE9C /* UINib+TYVExtentions.m in Sources */,
 				BFA294591B9D65BA005E6F5D /* TYVAbstractDataModel.m in Sources */,

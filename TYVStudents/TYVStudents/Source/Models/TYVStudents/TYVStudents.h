@@ -13,4 +13,6 @@
 
 @interface TYVStudents : TYVModelArray
 
+- (void)save;
+
 @end
