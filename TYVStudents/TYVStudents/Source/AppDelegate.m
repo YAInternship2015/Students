@@ -31,14 +31,14 @@ static const NSUInteger TYVdefaultImagesCount = 10;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    TYVStudents *studentsModel = [TYVStudents studentsWithCapacity:TYVDefaultCellsCount];
+    TYVStudents *studentsModel = [TYVStudents dataWithModelsCount:TYVDefaultCellsCount];
     
     for (int i = 0; i < TYVDefaultCellsCount; i++) {
         NSUInteger index = arc4random_uniform(TYVdefaultImagesCount);
         NSString *photoName = [NSString stringWithFormat:@"%lu%@", index + 1,@".jpeg"];
         TYVStudent *student = [[TYVStudent alloc] initWithName:[NSString randomStringWithLength:TYVDefaultNameLength]
                                                      photoName:photoName];
-        [studentsModel addStundent:student];
+        [studentsModel addModel:student];
     }
     
     UIWindow *window = [UIWindow window];

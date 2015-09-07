@@ -7,22 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TYVModelArray.h"
 
 @class TYVStudent;
 
-@interface TYVStudents : NSObject
-@property (nonatomic, readonly) NSArray *array;
-
-+ (instancetype)studentsWithCapacity:(NSUInteger)capacity;
-- (instancetype)initWithCapacity:(NSUInteger)capacity;
-
-- (void)addStundent:(TYVStudent *)student;
-- (void)removeStundent:(TYVStudent *)student;
-- (void)containsStundent:(TYVStudent *)student;
-
-- (TYVStudent *)studentAtIndex:(NSUInteger)index;
-- (id)objectAtIndexedSubscript:(NSUInteger)index;
-
-- (NSUInteger)count;
+@interface TYVStudents : TYVModelArray
 
 @end
